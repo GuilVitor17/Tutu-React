@@ -1,0 +1,744 @@
+.sonhos {
+    width: 900px;
+    height: 300px;
+    margin: auto;
+    left: 170px;
+    position: relative;
+
+}
+
+.Sonho-Title {
+    position: relative;
+    width: 900px;
+    height: 64px;
+    left: 0px;
+    top: 10px;
+    margin: auto;
+    background: #FED141;
+    border-radius: 2px;
+}
+
+
+.Sonho-Title > b  {
+
+    position: absolute;
+    width:400px;
+    left: 0px;
+    padding: 15px 20px;
+    text-align: left;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;    
+    color: #FFFDF2;
+
+
+}
+
+
+.option-sonhos{
+    width: 876px;
+    height: 170px;
+    position: relative;
+    top: 20px;
+    flex-wrap: wrap;
+    display:flex;
+    margin: auto;
+    
+}
+
+.option-sonhos > div > div > svg{
+    position: relative;
+    top: 10px;
+    bottom: 19.74%;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    margin: auto;
+    transform: rotate(180deg);
+    
+
+}
+
+.option-sonhos > div > div{
+
+    position: relative;
+width: 79.08px;
+height: 60.38px;
+top: 15px;
+margin: auto;
+background: #FED141 !important;
+border-radius: 5px;
+transform: rotate(180deg);
+
+
+
+}
+
+.option-sonhos > div > p{
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    top: -10px;
+    position: relative;   
+    width: 86px;
+    height: 20px;
+    color: #424D59;
+    margin: auto;
+    
+}
+
+
+.option-sonhos > div{
+
+    width: 199px;
+    height: 148px;
+    margin: 10px;
+    display: grid;
+    position:relative;
+    background-color: #fff;
+    left: -1px;
+    border-radius: 10px;
+    top: 0px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    cursor: pointer;
+}
+
+.option-sonhos > .cronograma{
+
+    width: 199px;
+    height: 150px;
+    margin: 10px;
+    display: grid;
+    position:relative;
+    background-color: #fff;
+    left: 0px;
+    top: 0px;
+
+}
+
+.option-sonhos > .tarefa{
+
+    width: 199px;
+    height: 148px;
+    margin: 10px;
+    display: grid;
+    position:relative;
+    left: 0px;
+    top: 0px;
+}
+
+.option-sonhos > .trofeu{
+
+    width: 199px;
+    height: 150px;
+    margin: 10px;
+    display: grid;
+    position:relative;
+    left: 0px;
+    top: 0px;
+}
+
+@media (max-width:425px) {
+
+    .sonhos {
+        width: 400px;
+        height: 400px;
+        margin: auto;
+        left: 0px;
+
+    }
+    
+    .Sonho-Title {
+        position: relative;
+        width: 400px;
+        height: 64px;
+        left: 0px;
+        top: 10px;
+        margin: auto;
+        background: #FED141;
+        border-radius: 2px;
+    }
+    
+    
+    .Sonho-Title > b  {
+    
+        position: absolute;
+        width:400px;
+        left: 0px;
+        padding: 15px 20px;
+        text-align: left;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 30px;    
+        color: #FFFDF2;
+    
+    
+    }
+    
+    
+    .option-sonhos{
+        width: 400px;
+        height: 300px;
+        position: relative;
+        top: 23px;
+        flex-wrap: wrap;
+        display:flex;
+        background-color: #D7D7D7;
+    }
+    
+    .option-sonhos > div > div > svg{
+        position: relative;
+        top: 10px;
+        bottom: 19.74%;
+        width: 40px;
+        height: 40px;
+        color: #fff;
+        margin: auto;
+        transform: rotate(180deg);
+        
+    
+    }
+    
+    .option-sonhos > div > div{
+    
+        position: relative;
+    width: 79.08px;
+    height: 60.38px;
+    top: 10px;
+    margin: auto;
+    background: #FED141 !important;
+    border-radius: 5px;
+    transform: rotate(180deg);
+    
+    
+    }
+    
+    .option-sonhos > div > p{
+    
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        top: -15px;
+        position: relative;   
+        width: 86px;
+        height: 20px;
+        color: #424D59;
+        margin: auto;
+        
+    }
+    
+    
+    .option-sonhos > div{
+    
+        width: 199px;
+        height: 148px;
+        margin: 0px;
+        display: grid;
+        position:relative;
+        background-color: #fff;
+        left: -1px;
+        top: 0px;
+        box-shadow: none;
+        border-radius: 0;
+
+    }
+    
+    .option-sonhos > .cronograma{
+    
+        width: 199px;
+        height: 150px;
+        margin: 0px;
+        display: grid;
+        position:relative;
+        background-color: #fff;
+        left: -1px;
+        top: 3px;
+    }
+    
+    .option-sonhos > .tarefa{
+    
+        width: 199px;
+        height: 148px;
+        margin: 0px;
+        display: grid;
+        position:relative;
+        left: 3px;
+        top: 0px;
+    }
+    
+    .option-sonhos > .trofeu{
+    
+        width: 199px;
+        height: 150px;
+        margin: 0px;
+        display: grid;
+        position:relative;
+        left: 3px;
+        top: 3px;
+    }
+    
+    
+}
+
+@media (max-width:1300px) and (min-width:1200px) {
+
+
+    .sonhos {
+        width: 800px;
+        height: 300px;
+        margin: auto;
+        left: 175px;
+        position: relative;
+    
+    }
+
+    
+    .Sonho-Title {
+        position: relative;
+        width: 800px;
+        height: 64px;
+        left: 0px;
+        top: 10px;
+        margin: auto;
+        background: #FED141;
+        border-radius: 2px;
+    }
+    
+    
+    .Sonho-Title > b  {
+    
+        position: absolute;
+        width:400px;
+        left: 0px;
+        padding: 15px 20px;
+        text-align: left;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 30px;    
+        color: #FFFDF2;
+    
+    
+    }
+    
+    
+    .option-sonhos{
+        width: 800px;
+        height: 170px;
+        position: relative;
+        top: 20px;
+        flex-wrap: wrap;
+        display:flex;
+        margin: auto;
+        
+    }
+    
+    .option-sonhos > div > div > svg{
+        position: relative;
+        top: 10px;
+        bottom: 19.74%;
+        width: 40px;
+        height: 40px;
+        color: #fff;
+        margin: auto;
+        transform: rotate(180deg);
+        
+    
+    }
+    
+    .option-sonhos > div > div{
+    
+        position: relative;
+    width: 79.08px;
+    height: 60.38px;
+    top: 15px;
+    margin: auto;
+    background: #FED141 !important;
+    border-radius: 5px;
+    transform: rotate(180deg);
+    
+    
+    
+    }
+    
+    .option-sonhos > div > p{
+    
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        top: -10px;
+        position: relative;   
+        width: 86px;
+        height: 20px;
+        color: #424D59;
+        margin: auto;
+        
+    }
+    
+    
+    .option-sonhos > div{
+    
+        width: 180px;
+        height: 150px;
+        margin: 10px;
+        display: grid;
+        position:relative;
+        background-color: #fff;
+        left: -1px;
+        border-radius: 10px;
+        top: 0px;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+        cursor: pointer;
+        margin: auto;
+    }
+    
+    .option-sonhos > .cronograma{
+    
+        width: 180px;
+        height: 150px;
+        margin: 10px;
+        display: grid;
+        position:relative;
+        background-color: #fff;
+        left: 0px;
+        top: 0px;
+    
+    }
+    
+    .option-sonhos > .tarefa{
+    
+        width: 180px;
+        height: 150px;
+        margin: 10px;
+        display: grid;
+        position:relative;
+        left: 0px;
+        top: 0px;
+    }
+    
+    .option-sonhos > .trofeu{
+    
+        width: 180px;
+        height: 150px;
+        margin: 10px;
+        display: grid;
+        position:relative;
+        left: 0px;
+        top: 0px;
+    }
+    
+
+
+
+}
+
+
+@media (max-width:1200px) and (min-width:991px) {
+
+
+    .sonhos {
+        width: 600px;
+        height: 300px;
+        margin: auto;
+        left: 175px;
+        position: relative;
+    
+    }
+
+    
+    .Sonho-Title {
+        position: relative;
+        width: 600px;
+        height: 64px;
+        left: 0px;
+        top: 10px;
+        margin: auto;
+        background: #FED141;
+        border-radius: 2px;
+    }
+    
+    
+    .Sonho-Title > b  {
+    
+        position: absolute;
+        width:400px;
+        left: 0px;
+        padding: 15px 20px;
+        text-align: left;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 30px;    
+        color: #FFFDF2;
+    
+    
+    }
+    
+    
+    .option-sonhos{
+        width: 600px;
+        height: 170px;
+        position: relative;
+        top: 20px;
+        flex-wrap: wrap;
+        display:flex;
+        margin: auto;
+        
+    }
+    
+    .option-sonhos > div > div > svg{
+        position: relative;
+        top: 10px;
+        bottom: 19.74%;
+        width: 40px;
+        height: 40px;
+        color: #fff;
+        margin: auto;
+        transform: rotate(180deg);
+        
+    
+    }
+    
+    .option-sonhos > div > div{
+    
+        position: relative;
+    width: 79.08px;
+    height: 60.38px;
+    top: 15px;
+    margin: auto;
+    background: #FED141 !important;
+    border-radius: 5px;
+    transform: rotate(180deg);
+    
+    
+    
+    }
+    
+    .option-sonhos > div > p{
+    
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        top: -10px;
+        position: relative;   
+        width: 86px;
+        height: 20px;
+        color: #424D59;
+        margin: auto;
+        
+    }
+    
+    
+    .option-sonhos > div{
+    
+        width: 130px;
+        height: 150px;
+        margin: 10px;
+        display: grid;
+        position:relative;
+        background-color: #fff;
+        left: -1px;
+        border-radius: 10px;
+        top: 0px;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+        cursor: pointer;
+    }
+    
+    .option-sonhos > .cronograma{
+    
+        width: 130px;
+        height: 150px;
+        margin: 10px;
+        display: grid;
+        position:relative;
+        background-color: #fff;
+        left: 0px;
+        top: 0px;
+    
+    }
+    
+    .option-sonhos > .tarefa{
+    
+        width: 130px;
+        height: 150px;
+        margin: 10px;
+        display: grid;
+        position:relative;
+        left: 0px;
+        top: 0px;
+    }
+    
+    .option-sonhos > .trofeu{
+    
+        width: 130px;
+        height: 150px;
+        margin: 10px;
+        display: grid;
+        position:relative;
+        left: 0px;
+        top: 0px;
+    }
+    
+
+
+}
+
+
+
+
+
+@media (max-width:991px) and (min-width:426px) {
+
+    .sonhos {
+        width: 700px;
+        height: 500px;
+        margin: auto;
+        left: 0px;
+
+    }
+    
+    .Sonho-Title {
+        position: relative;
+        width: 700px;
+        height: 64px;
+        left: 0px;
+        top: 10px;
+        margin: auto;
+        background: #FED141;
+        border-radius: 2px;
+    }
+    
+    
+    .Sonho-Title > b  {
+    
+        position: absolute;
+        width:700px;
+        left: 0px;
+        padding: 15px 20px;
+        text-align: left;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 30px;    
+        color: #FFFDF2;
+    
+    
+    }
+    
+    
+    .option-sonhos{
+        width: 700px;
+        height: 300px;
+        position: relative;
+        top: 23px;
+        flex-wrap: wrap;
+        display:flex;
+        background-color: #D7D7D7;
+    }
+    
+    .option-sonhos > div > div > svg{
+        position: relative;
+        top: 10px;
+        bottom: 19.74%;
+        width: 40px;
+        height: 40px;
+        color: #fff;
+        margin: auto;
+        transform: rotate(180deg);
+        
+    
+    }
+    
+    .option-sonhos > div > div{
+    
+        position: relative;
+    width: 79.08px;
+    height: 60.38px;
+    top: 10px;
+    margin: auto;
+    background: #FED141 !important;
+    border-radius: 5px;
+    transform: rotate(180deg);
+    
+    
+    }
+    
+    .option-sonhos > div > p{
+    
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        top: -15px;
+        position: relative;   
+        width: 86px;
+        height: 20px;
+        color: #424D59;
+        margin: auto;
+        
+    }
+    
+    
+    .option-sonhos > div{
+    
+        width: 350px;
+        height: 148px;
+        margin: 0px;
+        display: grid;
+        position:relative;
+        background-color: #fff;
+        left: -1px;
+        top: 0px;
+        box-shadow: none;
+        border-radius: 0;
+
+    }
+    
+    .option-sonhos > .cronograma{
+    
+        width: 350px;
+        height: 150px;
+        margin: 0px;
+        display: grid;
+        position:relative;
+        background-color: #fff;
+        left: -1px;
+        top: 3px;
+    }
+    
+    .option-sonhos > .tarefa{
+    
+        width: 350px;
+        height: 148px;
+        margin: 0px;
+        display: grid;
+        position:relative;
+        left: 3px;
+        top: 0px;
+    }
+    
+    .option-sonhos > .trofeu{
+    
+        width: 350px;
+        height: 150px;
+        margin: 0px;
+        display: grid;
+        position:relative;
+        left: 3px;
+        top: 3px;
+    }
+    
+    
+}

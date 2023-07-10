@@ -1,0 +1,1015 @@
+.curso{
+
+    width: 900px;
+    height: 320px;
+    position: relative;
+    top: 0px;
+    margin: auto;
+
+}
+
+
+
+.curso > .carousel, .curso > .carousel > .carousel-inner,  .curso > .carousel > .carousel-inner > div> .link-img> img{
+    width: 600px;
+    height: 320px;
+    margin: auto;
+
+}
+
+.checkout-curso > .grade-curso{
+
+width: 800px;
+height: 400px;
+margin: auto;
+flex-direction: column;
+
+
+}
+
+.checkout-curso > .grade-curso > .img-curso, .checkout-curso > .grade-curso > .img-curso{
+
+    width: 800px !important;
+    height: 400px;
+    flex-wrap: wrap;
+    display: flex;
+    margin: auto;
+
+}
+.checkout-curso > .grade-curso > .img-curso, .checkout-curso > .grade-curso > .img-curso > img{
+
+    width: 300px;
+    height: 300px;
+
+}
+.checkout-curso > .grade-curso > .img-curso, .checkout-curso > .grade-curso > .img-curso > div{
+
+    width: 300px;
+    height: 150px;
+    right: 0px;
+    margin: 0px 10px;
+
+}
+
+.checkout-curso > .grade-curso > .img-curso, .checkout-curso > .grade-curso > .img-curso > div > b{
+
+    width: 300px;
+    right: 0px;
+    text-align: left;
+
+}
+
+.checkout-curso > .grade-curso > .img-curso, .checkout-curso > .grade-curso > .img-curso > div > .list-group > .list-group-item > h6{
+
+    width: 140px;
+    margin: -5px -15px;
+    position: relative;
+    color: #929DA9;
+   
+}
+
+.checkout-curso > .grade-curso > .img-curso, .checkout-curso > .grade-curso > .img-curso > div > .list-group > .list-group-item{
+
+    height: 30px;
+    text-align: left;
+    border: none;
+    margin: 5px 0px;
+    
+   
+
+}
+
+.checkout-curso > .grade-curso > .img-curso, .checkout-curso > .grade-curso > .img-curso > div > .list-group{
+
+    width: 400px;
+    height: 300px;
+    right: 0px;
+    position: relative;
+    margin: 10px 0px;
+
+}
+
+.grade-curso > .img-curso{
+
+    width: 800px;
+    height: 400px;
+
+
+}
+
+
+
+.button-modal{
+    width: 200px;
+    padding: 10px !important;
+    margin: auto !important;
+    display: flex;
+    position: relative;
+    color: #fff !important;
+}
+
+
+.checkout-curso > .grade-curso > div > button{
+
+    width: 300px;
+    padding: 15px;
+    position: relative;
+    top: 20px;
+    color: #fff;
+
+
+}
+
+.checkout-curso > .grade-curso > div{
+
+    width: 350px;
+    height: 110px;
+    margin: 7px 0px;
+
+   
+
+
+}
+.checkout-curso > .grade-curso > div > button{
+
+   position: relative;
+   top: -20px;
+   width: 350px !important;
+   
+
+
+}
+
+.checkout-curso{
+width: 800px;
+height: 600px;
+margin: auto;
+position: relative;
+top: -15px;
+
+}
+
+
+.msg-success, .msg-success > h2{
+    width: 300px;
+    height: 35px;
+    margin: auto;
+    color: green;
+    font-size: 25px !important;
+
+}
+
+.comprado{
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    color: green;
+    background-color: #fff;
+    width: 120px;
+}
+
+
+
+.msg-cancel, .msg-cancel > h2{
+    width: 300px;
+    height: 35px;
+    margin: auto;
+    color: red;
+    font-size: 25px !important;
+
+}
+
+
+.curso > .grade-curso{
+
+    width: 370px;
+    height: 300px;
+    position: relative;
+    margin: auto;
+    top: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 3px solid #FED141 ;
+}
+
+.curso > .grade-curso > .img-curso{
+
+    height: 300px;
+    width: 370px;
+    border-radius: 10px;
+
+
+
+
+}
+.curso > .grade-curso > .img-curso > img{
+
+    height: 295px;
+    width: 365px;
+    margin: 0px 0px;
+    border-radius: 10px;
+    
+
+}
+
+.descr-curso{
+
+text-align: left !important;
+color: #929DA9;
+width: 800px;
+font-size: 20px;
+position: relative;
+top: 5px;
+
+}
+
+
+.curso > .grade-curso > div > button{
+
+    width: 200px;
+    margin: auto;
+    padding: 15px;
+    color: #fff;
+    top: 10px;
+    position: relative;
+
+
+}
+
+
+.curso > .grade-curso > div{
+
+    width: 370px;
+    height: 100px;
+    display: flex;
+    position: relative;
+    border-radius: 0px 0px 10px 10px;
+
+
+
+}
+
+
+@media (max-width:1200px) and (min-width:991px) {
+
+
+    .curso{
+
+        width: 600px;
+        height: 320px;
+        position: relative;
+        top: 0px;
+        margin: auto;
+    
+    }
+    
+    
+    
+    .curso > .carousel, .curso > .carousel > .carousel-inner,  .curso > .carousel > .carousel-inner > div> .link-img> img{
+        width: 600px;
+        height: 320px;
+        margin: auto;
+    
+    }
+    
+    .checkout-curso > .grade-curso{
+    
+    width: 800px;
+    height: 400px;
+    margin: auto;
+    flex-direction: column;
+    
+    
+    }
+    
+    .checkout-curso > .grade-curso > .img-curso, .checkout-curso > .grade-curso > .img-curso{
+    
+        width: 800px !important;
+        height: 400px;
+        flex-wrap: wrap;
+        display: flex;
+        margin: auto;
+    
+    }
+    .checkout-curso > .grade-curso > .img-curso, .checkout-curso > .grade-curso > .img-curso > img{
+    
+        width: 300px;
+        height: 300px;
+    
+    }
+    .checkout-curso > .grade-curso > .img-curso, .checkout-curso > .grade-curso > .img-curso > div{
+    
+        width: 300px;
+        height: 150px;
+        right: 0px;
+        margin: 0px 10px;
+    
+    }
+    
+    .checkout-curso > .grade-curso > .img-curso, .checkout-curso > .grade-curso > .img-curso > div > b{
+    
+        width: 300px;
+        right: 0px;
+        text-align: left;
+    
+    }
+    
+    .checkout-curso > .grade-curso > .img-curso, .checkout-curso > .grade-curso > .img-curso > div > .list-group > .list-group-item > h6{
+    
+        width: 140px;
+        margin: -5px -15px;
+        position: relative;
+        color: #929DA9;
+       
+    }
+    
+    .checkout-curso > .grade-curso > .img-curso, .checkout-curso > .grade-curso > .img-curso > div > .list-group > .list-group-item{
+    
+        height: 30px;
+        text-align: left;
+        border: none;
+        margin: 5px 0px;
+        
+       
+    
+    }
+    
+    .checkout-curso > .grade-curso > .img-curso, .checkout-curso > .grade-curso > .img-curso > div > .list-group{
+    
+        width: 400px;
+        height: 300px;
+        right: 0px;
+        position: relative;
+        margin: 10px 0px;
+    
+    }
+    
+    .grade-curso > .img-curso{
+    
+        width: 800px;
+        height: 400px;
+    
+    
+    }
+    
+    
+    
+    .button-modal{
+        width: 200px;
+        padding: 10px !important;
+        margin: auto !important;
+        display: flex;
+        position: relative;
+        color: #fff !important;
+    }
+    
+    
+    .checkout-curso > .grade-curso > div > button{
+    
+        width: 300px;
+        padding: 15px;
+        position: relative;
+        top: 20px;
+        color: #fff;
+    
+    
+    }
+    
+    .checkout-curso > .grade-curso > div{
+    
+        width: 350px;
+        height: 110px;
+        margin: 7px 0px;
+    
+       
+    
+    
+    }
+    .checkout-curso > .grade-curso > div > button{
+    
+       position: relative;
+       top: -20px;
+       width: 350px !important;
+       
+    
+    
+    }
+    
+    .checkout-curso{
+    width: 800px;
+    height: 600px;
+    margin: auto;
+    position: relative;
+    top: -15px;
+    
+    }
+    
+    
+    .msg-success, .msg-success > h2{
+        width: 300px;
+        height: 35px;
+        margin: auto;
+        color: green;
+        font-size: 25px !important;
+    
+    }
+    
+    .comprado{
+        position: absolute;
+        bottom: 15px;
+        right: 15px;
+        color: green;
+        background-color: #fff;
+        width: 120px;
+    }
+    
+    
+    
+    .msg-cancel, .msg-cancel > h2{
+        width: 300px;
+        height: 35px;
+        margin: auto;
+        color: red;
+        font-size: 25px !important;
+    
+    }
+    
+    
+    .curso > .grade-curso{
+    
+        width: 370px;
+        height: 300px;
+        position: relative;
+        margin: auto;
+        top: 20px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+        border: 3px solid #FED141 ;
+    }
+    
+    .curso > .grade-curso > .img-curso{
+    
+        height: 300px;
+        width: 370px;
+        border-radius: 10px;
+    
+    
+    
+    
+    }
+    .curso > .grade-curso > .img-curso > img{
+    
+        height: 295px;
+        width: 365px;
+        margin: 0px 0px;
+        border-radius: 10px;
+        
+    
+    }
+    
+    .descr-curso{
+    
+    text-align: left !important;
+    color: #929DA9;
+    width: 800px;
+    font-size: 20px;
+    position: relative;
+    top: 5px;
+    
+    }
+    
+    
+    .curso > .grade-curso > div > button{
+    
+        width: 200px;
+        margin: auto;
+        padding: 15px;
+        color: #fff;
+        top: 10px;
+        position: relative;
+    
+    
+    }
+    
+    
+    .curso > .grade-curso > div{
+    
+        width: 370px;
+        height: 100px;
+        display: flex;
+        position: relative;
+        border-radius: 0px 0px 10px 10px;
+    
+    
+    
+    }
+    
+
+
+}
+
+
+
+
+@media (max-width:425px) {
+
+
+    .curso{
+
+        width: 370px;
+        height: 320px;
+        position: relative;
+        top: 20px;
+        margin: auto;
+    
+    }
+    
+    
+    
+    .curso > .carousel, .curso > .carousel > .carousel-inner,  .curso > .carousel > .carousel-inner > div> .link-img> img{
+        width: 370px;
+        height: 320px;
+    
+    }
+    
+    .checkout-curso > .grade-curso{
+    
+    width: 350px;
+    height: 400px;
+    margin: auto;
+    flex-direction: column;
+    
+    
+    }
+    
+    .checkout-curso > .grade-curso > .img-curso, .checkout-curso > .grade-curso > .img-curso{
+    
+        width: 350px !important;
+        height: 200px;
+        flex-wrap: wrap;
+        display: flex;
+    
+    }
+    .checkout-curso > .grade-curso > .img-curso, .checkout-curso > .grade-curso > .img-curso > img{
+    
+        width: 200px;
+        height: 200px;
+    
+    }
+    .checkout-curso > .grade-curso > .img-curso, .checkout-curso > .grade-curso > .img-curso > div{
+    
+        width: 130px;
+        height: 150px;
+        right: 0px;
+        margin: 0px 10px;
+    
+    }
+    
+    .checkout-curso > .grade-curso > .img-curso, .checkout-curso > .grade-curso > .img-curso > div > b{
+    
+        width: 130px;
+        right: 0px;
+        text-align: left;
+    
+    }
+    
+    .checkout-curso > .grade-curso > .img-curso, .checkout-curso > .grade-curso > .img-curso > div > .list-group > .list-group-item > h6{
+    
+        width: 140px;
+        margin: -5px -15px;
+        position: relative;
+        color: #929DA9;
+       
+    }
+    
+    .checkout-curso > .grade-curso > .img-curso, .checkout-curso > .grade-curso > .img-curso > div > .list-group > .list-group-item{
+    
+        height: 30px;
+        text-align: left;
+        border: none;
+        
+       
+    
+    }
+    
+    .checkout-curso > .grade-curso > .img-curso, .checkout-curso > .grade-curso > .img-curso > div > .list-group{
+    
+        width: 140px;
+        height: 200px;
+        right: 0px;
+        position: relative;
+        margin: 10px 0px;
+    
+    }
+    
+    
+    
+    .button-modal{
+        width: 200px;
+        padding: 10px !important;
+        margin: auto !important;
+        display: flex;
+        position: relative;
+        color: #fff !important;
+    }
+    
+    
+    .checkout-curso > .grade-curso > div > button{
+    
+        width: 300px;
+        padding: 15px;
+        position: relative;
+        top: 20px;
+        color: #fff;
+    
+    
+    }
+    
+    .checkout-curso > .grade-curso > div{
+    
+        width: 350px;
+        height: 110px;
+        margin: 7px 0px;
+    
+       
+    
+    
+    }
+    .checkout-curso > .grade-curso > div > button{
+    
+       position: relative;
+       top: 30px;
+       width: 350px !important;
+       
+    
+    
+    }
+    
+    .checkout-curso{
+    width: 370px;
+    height: 450px;
+    margin: auto;
+    position: relative;
+    top: -15px;
+    
+    }
+    
+    
+    .msg-success, .msg-success > h2{
+        width: 300px;
+        height: 35px;
+        margin: auto;
+        color: green;
+        font-size: 25px !important;
+    
+    }
+    
+    .comprado{
+        position: absolute;
+        bottom: 15px;
+        right: 15px;
+        color: green;
+        background-color: #fff;
+        width: 120px;
+    }
+    
+    
+    
+    .msg-cancel, .msg-cancel > h2{
+        width: 300px;
+        height: 35px;
+        margin: auto;
+        color: red;
+        font-size: 25px !important;
+    
+    }
+    
+    
+    .curso > .grade-curso{
+    
+        width: 370px;
+        height: 300px;
+        position: relative;
+        margin: auto;
+        top: 20px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+        border: 3px solid #FED141 ;
+    }
+    
+    .curso > .grade-curso > .img-curso{
+    
+        height: 300px;
+        width: 370px;
+        border-radius: 10px;
+    
+    
+    
+    
+    }
+    .curso > .grade-curso > .img-curso > img{
+    
+        height: 295px;
+        width: 365px;
+        margin: 0px 0px;
+        border-radius: 10px;
+        
+    
+    }
+    
+    .descr-curso{
+    
+    text-align: left !important;
+    color: #929DA9;
+    width: 370px;
+    font-size: 18px;
+    position: relative;
+    top: 5px;
+    
+    }
+    
+    
+    .curso > .grade-curso > div > button{
+    
+        width: 200px;
+        margin: auto;
+        padding: 15px;
+        color: #fff;
+        top: 10px;
+        position: relative;
+    
+    
+    }
+    
+    
+    .curso > .grade-curso > div{
+    
+        width: 370px;
+        height: 100px;
+        display: flex;
+        position: relative;
+        border-radius: 0px 0px 10px 10px;
+    
+    
+    
+    }
+
+
+    
+}
+
+
+
+
+
+@media (max-width:991px) and (min-width:426px) {
+
+
+    .curso{
+
+        width: 700px;
+        height: 320px;
+        position: relative;
+        top: 20px;
+        margin: auto;
+    
+    }
+    
+    
+    
+    .curso > .carousel, .curso > .carousel > .carousel-inner,  .curso > .carousel > .carousel-inner > div> .link-img> img{
+        width: 600px;
+        height: 320px;
+    
+    }
+    
+    .checkout-curso > .grade-curso{
+    
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    flex-direction: column;
+    
+    
+    }
+    
+    .checkout-curso > .grade-curso > .img-curso, .checkout-curso > .grade-curso > .img-curso{
+    
+        width: 350px !important;
+        height: 200px;
+        flex-wrap: wrap;
+        display: flex;
+    
+    }
+    .checkout-curso > .grade-curso > .img-curso, .checkout-curso > .grade-curso > .img-curso > img{
+    
+        width: 200px;
+        height: 200px;
+    
+    }
+    .checkout-curso > .grade-curso > .img-curso, .checkout-curso > .grade-curso > .img-curso > div{
+    
+        width: 130px;
+        height: 150px;
+        right: 0px;
+        margin: 0px 10px;
+    
+    }
+    
+    .checkout-curso > .grade-curso > .img-curso, .checkout-curso > .grade-curso > .img-curso > div > b{
+    
+        width: 130px;
+        right: 0px;
+        text-align: left;
+    
+    }
+    
+    .checkout-curso > .grade-curso > .img-curso, .checkout-curso > .grade-curso > .img-curso > div > .list-group > .list-group-item > h6{
+    
+        width: 140px;
+        margin: -5px -15px;
+        position: relative;
+        color: #929DA9;
+       
+    }
+    
+    .checkout-curso > .grade-curso > .img-curso, .checkout-curso > .grade-curso > .img-curso > div > .list-group > .list-group-item{
+    
+        height: 30px;
+        text-align: left;
+        border: none;
+        
+       
+    
+    }
+    
+    .checkout-curso > .grade-curso > .img-curso, .checkout-curso > .grade-curso > .img-curso > div > .list-group{
+    
+        width: 400px;
+        height: 200px;
+        right: 0px;
+        position: relative;
+        margin: 10px 0px;
+    
+    }
+    
+    
+    
+    .button-modal{
+        width: 200px;
+        padding: 10px !important;
+        margin: auto !important;
+        display: flex;
+        position: relative;
+        color: #fff !important;
+    }
+    
+    
+    .checkout-curso > .grade-curso > div > button{
+    
+        width: 300px;
+        padding: 15px;
+        position: relative;
+        top: 20px;
+        color: #fff;
+    
+    
+    }
+    
+    .checkout-curso > .grade-curso > div{
+    
+        width: 350px;
+        height: 110px;
+        margin: 7px 0px;
+    
+       
+    
+    
+    }
+    .checkout-curso > .grade-curso > div > button{
+    
+       position: relative;
+       top: 30px;
+       width: 350px !important;
+       
+    
+    
+    }
+    
+    .checkout-curso{
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    position: relative;
+    top: 25px;
+    
+    }
+    
+    
+    .msg-success, .msg-success > h2{
+        width: 300px;
+        height: 35px;
+        margin: auto;
+        color: green;
+        font-size: 25px !important;
+    
+    }
+    
+    .comprado{
+        position: absolute;
+        bottom: 15px;
+        right: 15px;
+        color: green;
+        background-color: #fff;
+        width: 120px;
+    }
+    
+    
+    
+    .msg-cancel, .msg-cancel > h2{
+        width: 300px;
+        height: 35px;
+        margin: auto;
+        color: red;
+        font-size: 25px !important;
+    
+    }
+    
+    
+    .curso > .grade-curso{
+    
+        width: 370px;
+        height: 300px;
+        position: relative;
+        margin: auto;
+        top: 20px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+        border: 3px solid #FED141 ;
+    }
+    
+    .curso > .grade-curso > .img-curso{
+    
+        height: 300px;
+        width: 370px;
+        border-radius: 10px;
+    
+    
+    
+    
+    }
+    .curso > .grade-curso > .img-curso > img{
+    
+        height: 295px;
+        width: 365px;
+        margin: 0px 0px;
+        border-radius: 10px;
+        
+    
+    }
+    
+    .descr-curso{
+    
+    text-align: left !important;
+    color: #929DA9;
+    width: 500px;
+    font-size: 18px;
+    position: relative;
+    top: 15px;
+    margin: auto;
+    
+    }
+    
+    
+    .curso > .grade-curso > div > button{
+    
+        width: 200px;
+        margin: auto;
+        padding: 15px;
+        color: #fff;
+        top: 10px;
+        position: relative;
+    
+    
+    }
+    
+    
+    .curso > .grade-curso > div{
+    
+        width: 370px;
+        height: 100px;
+        display: flex;
+        position: relative;
+        border-radius: 0px 0px 10px 10px;
+    
+    
+    
+    }
+
+
+    
+}

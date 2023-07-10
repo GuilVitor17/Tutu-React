@@ -1,0 +1,2564 @@
+.perfil {
+    width: 900px;
+    height: 400px;
+    margin: 40px auto;
+    position: relative;
+    left: 170px;
+
+
+
+}
+
+.image > img {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 0px;
+    top: 0px;
+    background-blend-mode: normal;
+    border-radius: 50%;
+    border: solid 2px #424D59;
+
+}
+
+.image {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 150px;
+    top: 90px;
+    background-blend-mode: normal;
+    border-radius: 50%;
+}
+
+.nome > h2{
+
+position: absolute;
+height: 32px;
+left: 400px;
+top: 182px;
+width: 300px;
+text-align: center;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 32px;
+/* identical to box height, or 133% */
+
+letter-spacing: 0.2px;
+
+color: #FED141;
+
+}
+
+.barra-baixa{
+    position: relative;
+width: 800px;
+height: 0px;
+left: 0px;
+top: 350px;
+border: 1px solid #D7D7D7;
+margin: auto;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #FED141;        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #929DA9;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid #FED141;  /* creates padding around scroll thumb */
+  }
+
+.nome >p{
+
+    position: absolute;
+    width: 300px;
+    height: 20px;
+    text-align: center;
+    left: 400px;
+    top: 162px;
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 20px;
+/* identical to box height, or 154% */
+
+letter-spacing: 0.2px;
+
+color: #929DA9;
+
+
+}
+
+.dadosUser>.list-group > li{
+    margin: 10px 0px;
+    background-color: #FED141;
+
+}
+
+
+
+.perfilId {
+    width: 100%;
+    height: 100vh;
+    background-color: #FFFFFF;
+    position: relative;
+    flex-direction:row;
+    display: flex;
+    top: 0px;
+
+
+
+}
+
+.perfilUpload {
+    width: 100%;
+    height: 100vh;
+    background-color: #FFFFFF;
+    position: relative;
+    flex-direction:column;
+    display: flex;
+    top: 0px;
+}
+
+.input-img-upload{
+    width: 150px !important;
+    position: relative;
+    top: 0px;
+    height: 60px;
+    border-radius: 50px !important;
+    background-color: transparent !important;
+    margin: auto;
+    display: flex;
+    left: 7px;
+    box-shadow: none !important;
+    z-index: 0;
+}
+
+.perfilId > .barra-fixed {
+    position: fixed !important;
+    width: 100%;
+    height: 65px;
+    z-index: 3000;
+    top: 0px;
+    background-color: #FED141;
+    box-shadow: 0px 7px 35px rgba(0, 0, 0, 0.2);
+
+   
+
+}
+
+.perfilUpload > .barra-fixed {
+    width: 100%;
+    height: 65px;
+    z-index: 3000;
+    top: 0px;
+    background-color: #FED141;
+    box-shadow: 0px 7px 35px rgba(0, 0, 0, 0.2);
+
+   
+
+}
+
+
+
+
+
+.perfilId > div> .barra-alta-home {
+    position: relative !important;
+    width: 100%;
+    height: 65px;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    margin: auto;
+    z-index: 3000;
+
+}
+
+.nivel > .level-maximo{
+
+    position: absolute;
+    width: 10px;
+    height: 23px;
+    left: 570px;
+    top: -3px;
+    right: 0px;
+    text-align: right;
+    font-size: 19px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+    /* identical to box height */
+    
+    
+    color: #FED141;
+    
+}
+
+.nivel > b{
+    position: absolute;
+width: 10px;
+height: 23px;
+left: -20px;
+top: -2px;
+text-align: left;
+font-size: 19px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+line-height: 22px;
+/* identical to box height */
+
+
+color: #FED141;
+
+}
+.nivel-tutu{
+    position: absolute;
+width: 200px;
+height: 23px;
+left: 140px;
+top: 315px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+text-align: left;
+color: #FED141;
+}
+
+.progress{
+width: 560px !important;
+height: 15px !important;
+}
+.nivel{
+    width: 560px;
+    height: 15px;
+    position: relative;
+left: -10px;
+top: 320px;
+margin: auto;
+display: flex;
+
+background: #E2E2E2;
+border-radius: 2px;
+}
+
+.perfilUpload > div> .barra-alta-home {
+    width: 100%;
+    height: 65px;
+    left: 0px;
+    top: 10px;
+    display: flex;
+    margin: auto;
+    z-index: 3000;
+
+}
+
+
+
+
+.button-upload-dados {
+
+    width: 215.73px;
+    height: 50.26px;
+    top: 150px;
+    position: relative;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    background: #FED141 !important;
+    border: solid 1px #FED141 !important;
+    color: #FFFFFF;
+
+}
+
+.input-img{
+
+    height: 45px;
+    border-radius: 20px;
+    top: 130px;
+    position: relative;
+    margin: auto;
+    flex-direction: column-reverse;
+
+}
+
+.form-control[type=file]:not(:disabled):not([readonly]){
+    border: solid 1px #000;
+}
+
+.imageId {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    left: 0px;
+    top: 0px;
+    background-blend-mode: normal;
+    border-radius: 50%;
+    margin: auto;
+    display: grid;
+
+}
+
+.imageId > img {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    left: 0px;
+    top:0px;
+    background-blend-mode: normal;
+    border-radius: 50%;
+    margin: auto;
+    display: grid;
+    border: solid 2px #424D59;
+
+}
+
+.imageId > .icon-usuario {
+    position: relative;
+    width: 100px;
+    height:100px;
+    left: 0px;
+    top:10px;
+    background-blend-mode: normal;
+    border-radius: 50%;
+    margin: auto;
+    display: grid;
+}
+
+.dadosUser>.list-group > li{
+    margin: 1px;
+    text-align: left;
+}
+
+.dadosUser>.list-group > li{
+    margin: 1px;
+    color: #424D59;
+}
+
+.fw-bold{
+    color: #fff;
+
+}
+
+.dadosUser{
+    width: 380px;
+    min-height: 450px;
+    margin: auto;
+    flex-direction: column;
+    display: flex;
+    position: relative;
+    top: 0px;
+}
+.perfiledit> form > button{
+
+    position: absolute;
+    right: 0px;
+
+
+}
+
+.perfiledit> form{
+
+    width: 800px;
+    height: 200px;
+    margin: 0px 40px;
+    flex-direction:row;
+    position:relative;
+    right: 0px;
+    top: 30px;
+    margin: auto;
+
+}
+
+.perfiledit>.dadosUser{
+    width: 800px;
+    height: 450px;
+    margin: 10px 0px;
+    flex-direction:row;
+    display: flex;
+    position: relative;
+    margin: auto;
+    top: -80px;
+}
+
+.imageId-user > img {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    left: 0px;
+    top:0px;
+    background-blend-mode: normal;
+    border-radius: 50%;
+    margin: auto;
+    display: grid;
+
+}
+
+.imageId-user {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    left: 0px;
+    top:90px;
+    background-blend-mode: normal;
+    border-radius: 50%;
+    margin: auto;
+    display: grid;
+    z-index: 2000 !important;
+    border: solid 2px #424D59;
+
+}
+
+.perfiledit >.dadosUser> form > button{
+
+    position: relative;
+    top: 30px;
+
+
+}
+
+.perfiledit > form > button{
+
+    position: absolute;
+    top: 110px;
+    width: 130px;
+    margin: 35px 5px;
+    right: 200px;
+
+
+}
+
+
+.modal-body > button{
+
+    width: 200px;
+    margin: auto;
+    display: grid;
+    padding: 10px;
+    
+}
+
+.perfiledit > form > .imageId> .input-img{
+
+    height: 220px;
+    border-radius: 10px;
+    top: -270px;
+    width: 190px;
+    position: relative;
+    margin: auto;
+    flex-direction: column-reverse;
+
+}
+
+.perfiledit > form > .imageId {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 600px;
+    top:0px;
+    background-blend-mode: normal;
+    border-radius: 50%;
+    margin: auto;
+    display: grid;
+}
+
+
+.perfiledit {
+    width: 100%;
+    min-height: 900px;
+    margin: auto;
+    position: relative;
+    flex-direction:column;
+    display: flex;
+    background-color: #FFFFFF;
+
+
+
+
+}
+
+.perfil-create-user {
+    width: 100%;
+    min-height: 100vh !important;
+    margin: auto;
+    position: relative;
+    flex-direction:column;
+    display: flex;
+    background-color: #FFFFFF;
+
+
+
+
+}
+
+
+
+.barra-fixed {
+   
+    box-shadow: 0px 7px 35px rgba(0, 0, 0, 0.2) !important;
+
+   
+
+}
+
+.perfiledit > .barra-fixed {
+    position: fixed !important;
+    width: 100%;
+    height: 65px;
+    z-index: 3000;
+    top: 0px;
+    background: #FED141;
+    box-shadow: 0px 7px 35px rgba(0, 0, 0, 0.2);
+
+   
+
+}
+
+.title-dados > b{
+    position: relative;
+    width: 270px;
+    height: 45px;
+    left: -277px;
+    top: 0px;
+    text-align: left;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 45px;
+    
+    
+    color: #424D59;
+    
+}
+
+.title-dados-foto > b{
+    position: absolute;
+    width: 270px;
+    height: 45px;
+    left: 50px;
+    top: 0px;
+    text-align: left;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 45px;
+    
+    color: #424D59;
+    
+}
+
+.perfil-create-user > .dadosUser > form > button{
+
+    position: relative; 
+    top: 10px;
+
+
+}
+
+.perfil-create-user > .dadosUser > form{
+
+    width: 800px;
+    min-height: 500px;
+    position: relative; 
+    top: 40px;
+
+}
+
+.perfil-create-user > .dadosUser{
+    position: relative;
+    width: 800px;
+    min-height: 600px;
+}
+
+.perfiledit> .barra-fixed >.barra-alta-home {
+    position: absolute;
+    width: 100%;
+    height: 55px;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    background: #FED141;
+
+}
+
+
+
+.button-edit-dados{
+    width: 215.73px;
+height: 50.26px;
+top: 50px;
+position: relative;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 27px;
+background: #FED141 !important;
+border: solid 1px #FED141 !important;
+
+color: #FFFFFF;
+}
+
+.form-label{
+text-align: left;
+width: 800px;
+color: #424D59;
+}
+
+.edit-button{
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    position: relative;
+    top: 75px;
+    left: 80px;
+}
+
+@media (max-width:1200px) and (min-width:991px) {
+
+
+    .perfil {
+        width: 600px;
+        height: 400px;
+        margin: 40px auto;
+        position: relative;
+        left: 175px;
+    
+    
+    
+    }
+    
+    .image > img {
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        left: 0px;
+        top: 0px;
+        background-blend-mode: normal;
+        border-radius: 50%;
+        border: solid 2px #424D59;
+    
+    }
+    
+    .image {
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        left: 50px;
+        top: 90px;
+        background-blend-mode: normal;
+        border-radius: 50%;
+    }
+    
+    .nome > h2{
+    
+    position: absolute;
+    height: 32px;
+    left: 250px;
+    top: 182px;
+    width: 300px;
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+    
+    letter-spacing: 0.2px;
+    
+    color: #FED141;
+    
+    }
+    
+    .barra-baixa{
+        position: relative;
+    width: 600px;
+    height: 0px;
+    left: 0px;
+    top: 350px;
+    border: 1px solid #D7D7D7;
+    margin: auto;
+    }
+    
+    body::-webkit-scrollbar {
+        width: 12px;               /* width of the entire scrollbar */
+      }
+      
+      body::-webkit-scrollbar-track {
+        background: #FED141;        /* color of the tracking area */
+      }
+      
+      body::-webkit-scrollbar-thumb {
+        background-color: #929DA9;    /* color of the scroll thumb */
+        border-radius: 20px;       /* roundness of the scroll thumb */
+        border: 3px solid #FED141;  /* creates padding around scroll thumb */
+      }
+    
+    .nome >p{
+    
+        position: absolute;
+        width: 300px;
+        height: 20px;
+        text-align: center;
+        left: 250px;
+        top: 162px;
+    
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    /* identical to box height, or 154% */
+    
+    letter-spacing: 0.2px;
+    
+    color: #929DA9;
+    
+    
+    }
+    
+    .dadosUser>.list-group > li{
+        margin: 10px 0px;
+        background-color: #FED141;
+    
+    }
+    
+    
+    
+    .perfilId {
+        width: 100%;
+        height: 100vh;
+        background-color: #FFFFFF;
+        position: relative;
+        flex-direction:row;
+        display: flex;
+        top: 0px;
+    
+    
+    
+    }
+    
+    .perfilUpload {
+        width: 100%;
+        height: 100vh;
+        background-color: #FFFFFF;
+        position: relative;
+        flex-direction:column;
+        display: flex;
+        top: 0px;
+    }
+    
+    .input-img-upload{
+        width: 150px !important;
+        position: relative;
+        top: 0px;
+        height: 60px;
+        border-radius: 50px !important;
+        background-color: transparent !important;
+        margin: auto;
+        display: flex;
+        left: 7px;
+        box-shadow: none !important;
+        z-index: 0;
+    }
+    
+    .perfilId > .barra-fixed {
+        position: fixed !important;
+        width: 100%;
+        height: 65px;
+        z-index: 3000;
+        top: 0px;
+        background-color: #FED141;
+        box-shadow: 0px 7px 35px rgba(0, 0, 0, 0.2);
+    
+       
+    
+    }
+    
+    .perfilUpload > .barra-fixed {
+        width: 100%;
+        height: 65px;
+        z-index: 3000;
+        top: 0px;
+        background-color: #FED141;
+        box-shadow: 0px 7px 35px rgba(0, 0, 0, 0.2);
+    
+       
+    
+    }
+    
+    
+    
+    
+    
+    .perfilId > div> .barra-alta-home {
+        position: relative !important;
+        width: 100%;
+        height: 65px;
+        left: 0px;
+        top: 0px;
+        display: flex;
+        margin: auto;
+        z-index: 3000;
+    
+    }
+    
+    .nivel > .level-maximo{
+    
+        position: absolute;
+        width: 10px;
+        height: 23px;
+        left: 570px;
+        top: -3px;
+        right: 0px;
+        text-align: right;
+        font-size: 19px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        line-height: 22px;
+        /* identical to box height */
+        
+        
+        color: #FED141;
+        
+    }
+    
+    .nivel > b{
+        position: absolute;
+    width: 10px;
+    height: 23px;
+    left: -20px;
+    top: -2px;
+    text-align: left;
+    font-size: 19px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+    /* identical to box height */
+    
+    
+    color: #FED141;
+    
+    }
+    .nivel-tutu{
+        position: absolute;
+    width: 200px;
+    height: 23px;
+    left: -10px;
+    top: 315px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    
+    text-align: left;
+    color: #FED141;
+    }
+    
+    .progress{
+    width: 560px !important;
+    height: 15px !important;
+    }
+    .nivel{
+        width: 560px;
+        height: 15px;
+        position: relative;
+    left: -10px;
+    top: 320px;
+    margin: auto;
+    display: flex;
+    
+    background: #E2E2E2;
+    border-radius: 2px;
+    }
+    
+    .perfilUpload > div> .barra-alta-home {
+        width: 100%;
+        height: 65px;
+        left: 0px;
+        top: 10px;
+        display: flex;
+        margin: auto;
+        z-index: 3000;
+    
+    }
+    
+    
+    
+    
+    .button-upload-dados {
+    
+        width: 215.73px;
+        height: 50.26px;
+        top: 150px;
+        position: relative;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 27px;
+        background: #FED141 !important;
+        border: solid 1px #FED141 !important;
+        color: #FFFFFF;
+    
+    }
+    
+    .input-img{
+    
+        height: 45px;
+        border-radius: 20px;
+        top: 130px;
+        position: relative;
+        margin: auto;
+        flex-direction: column-reverse;
+    
+    }
+    
+    .form-control[type=file]:not(:disabled):not([readonly]){
+        border: solid 1px #000;
+    }
+    
+    .imageId {
+        position: relative;
+        width: 200px;
+        height: 200px;
+        left: 0px;
+        top: 0px;
+        background-blend-mode: normal;
+        border-radius: 50%;
+        margin: auto;
+        display: grid;
+    
+    }
+    
+    .imageId > img {
+        position: relative;
+        width: 200px;
+        height: 200px;
+        left: 0px;
+        top:0px;
+        background-blend-mode: normal;
+        border-radius: 50%;
+        margin: auto;
+        display: grid;
+        border: solid 2px #424D59;
+    
+    }
+    
+    .imageId > .icon-usuario {
+        position: relative;
+        width: 100px;
+        height:100px;
+        left: 0px;
+        top:10px;
+        background-blend-mode: normal;
+        border-radius: 50%;
+        margin: auto;
+        display: grid;
+    }
+    
+    .dadosUser>.list-group > li{
+        margin: 1px;
+        text-align: left;
+    }
+    
+    .dadosUser>.list-group > li{
+        margin: 1px;
+        color: #424D59;
+    }
+    
+    .fw-bold{
+        color: #fff;
+    
+    }
+    
+    .dadosUser{
+        width: 380px;
+        min-height: 450px;
+        margin: auto;
+        flex-direction: column;
+        display: flex;
+        position: relative;
+        top: 0px;
+    }
+    .perfiledit> form > button{
+    
+        position: absolute;
+        right: 0px;
+    
+    
+    }
+    
+    .perfiledit> form{
+    
+        width: 800px;
+        height: 200px;
+        margin: 0px 40px;
+        flex-direction:row;
+        position:relative;
+        right: 0px;
+        top: 30px;
+        margin: auto;
+    
+    }
+    
+    .perfiledit>.dadosUser{
+        width: 800px;
+        height: 450px;
+        margin: 10px 0px;
+        flex-direction:row;
+        display: flex;
+        position: relative;
+        margin: auto;
+        top: -80px;
+    }
+    
+    .imageId-user > img {
+        position: relative;
+        width: 100px;
+        height: 100px;
+        left: 0px;
+        top:0px;
+        background-blend-mode: normal;
+        border-radius: 50%;
+        margin: auto;
+        display: grid;
+    
+    }
+    
+    .imageId-user {
+        position: relative;
+        width: 200px;
+        height: 200px;
+        left: 0px;
+        top:90px;
+        background-blend-mode: normal;
+        border-radius: 50%;
+        margin: auto;
+        display: grid;
+        z-index: 2000 !important;
+        border: solid 2px #424D59;
+    
+    }
+    
+    .perfiledit >.dadosUser> form > button{
+    
+        position: relative;
+        top: 30px;
+    
+    
+    }
+    
+    .perfiledit > form > button{
+    
+        position: absolute;
+        top: 110px;
+        width: 130px;
+        margin: 35px 5px;
+        right: 200px;
+    
+    
+    }
+    
+    
+    .modal-body > button{
+    
+        width: 200px;
+        margin: auto;
+        display: grid;
+        padding: 10px;
+        
+    }
+    
+    .perfiledit > form > .imageId> .input-img{
+    
+        height: 220px;
+        border-radius: 10px;
+        top: -270px;
+        width: 190px;
+        position: relative;
+        margin: auto;
+        flex-direction: column-reverse;
+    
+    }
+    
+    .perfiledit > form > .imageId {
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        left: 600px;
+        top:0px;
+        background-blend-mode: normal;
+        border-radius: 50%;
+        margin: auto;
+        display: grid;
+    }
+    
+    
+    .perfiledit {
+        width: 100%;
+        min-height: 900px;
+        margin: auto;
+        position: relative;
+        flex-direction:column;
+        display: flex;
+        background-color: #FFFFFF;
+    
+    
+    
+    
+    }
+    
+    .perfil-create-user {
+        width: 100%;
+        min-height: 100vh !important;
+        margin: auto;
+        position: relative;
+        flex-direction:column;
+        display: flex;
+        background-color: #FFFFFF;
+    
+    
+    
+    
+    }
+    
+    
+    
+    .barra-fixed {
+       
+        box-shadow: 0px 7px 35px rgba(0, 0, 0, 0.2) !important;
+    
+       
+    
+    }
+    
+    .perfiledit > .barra-fixed {
+        position: fixed !important;
+        width: 100%;
+        height: 65px;
+        z-index: 3000;
+        top: 0px;
+        background: #FED141;
+        box-shadow: 0px 7px 35px rgba(0, 0, 0, 0.2);
+    
+       
+    
+    }
+    
+    .title-dados > b{
+        position: relative;
+        width: 270px;
+        height: 45px;
+        left: -277px;
+        top: 0px;
+        text-align: left;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 45px;
+        
+        
+        color: #424D59;
+        
+    }
+    
+    .title-dados-foto > b{
+        position: absolute;
+        width: 270px;
+        height: 45px;
+        left: 50px;
+        top: 0px;
+        text-align: left;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 45px;
+        
+        color: #424D59;
+        
+    }
+    
+    .perfil-create-user > .dadosUser > form > button{
+    
+        position: relative; 
+        top: 10px;
+    
+    
+    }
+    
+    .perfil-create-user > .dadosUser > form{
+    
+        width: 800px;
+        min-height: 500px;
+        position: relative; 
+        top: 40px;
+    
+    }
+    
+    .perfil-create-user > .dadosUser{
+        position: relative;
+        width: 800px;
+        min-height: 600px;
+    }
+    
+    .perfiledit> .barra-fixed >.barra-alta-home {
+        position: absolute;
+        width: 100%;
+        height: 55px;
+        left: 0px;
+        top: 0px;
+        display: flex;
+        background: #FED141;
+    
+    }
+    
+    
+    
+    .button-edit-dados{
+        width: 215.73px;
+    height: 50.26px;
+    top: 50px;
+    position: relative;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    background: #FED141 !important;
+    border: solid 1px #FED141 !important;
+    
+    color: #FFFFFF;
+    }
+    
+    .form-label{
+    text-align: left;
+    width: 800px;
+    color: #424D59;
+    }
+    
+    .edit-button{
+        height: 50px;
+        width: 150px;
+        text-align: center;
+        position: relative;
+        top: 75px;
+        left: 80px;
+    }
+    
+    
+    
+}
+
+
+
+
+@media (max-width:425px) {
+
+
+    .perfil {
+        width: 400px !important;
+        height: 300px !important;
+        margin: auto;
+        position: relative;
+        left: 0px;
+
+    
+    
+    }
+
+
+    .perfil-create-user > .dadosUser > form > button{
+
+        position: relative; 
+        top: 40px;
+    
+    
+    }
+    
+    .perfil-create-user > .dadosUser > form{
+    
+        width: 370px;
+        min-height: 500px;
+        position: relative; 
+        top: 40px;
+    
+    }
+    
+    .perfil-create-user > .dadosUser{
+        position: relative;
+        width: 370px;
+        min-height: 600px;
+    }
+
+    .perfiledit > form > button {
+        position: absolute;
+        top: 110px;
+        width: 130px;
+        margin: 35px 5px;
+        right: 0px;
+    }
+
+
+    .perfiledit> form{
+
+        width: 370px;
+        height: 500px;
+        margin: 0px 40px;
+        flex-direction:row;
+        position:relative;
+        right: 0px;
+        top: -30px;
+        margin: auto;
+    
+    }
+    
+    .image > img {
+        position: absolute;
+        width: 87px;
+        height: 87px;
+        left: 0px;
+        top: 0px;
+        background-blend-mode: normal;
+        border-radius: 50px;
+        border: solid 2px #424D59;
+    
+    }
+    
+    .image {
+        position: absolute;
+        width: 87px;
+        height: 87px;
+        left: 69px;
+        top: 136px;
+        background-blend-mode: normal;
+        border-radius: 50px;
+    }
+    
+    .nome > h2{
+    
+        position: absolute;
+    height: 32px;
+    left: 177px;
+    top: 182px;
+    width: 140px;
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+    
+    letter-spacing: 0.2px;
+    
+    color: #FED141;
+    
+    }
+    
+    .barra-baixa{
+        position: relative;
+    width: 320px;
+    height: 0px;
+    left: 0px;
+    top: 260px;
+    border: 1px solid #D7D7D7;
+    margin: auto;
+    }
+    
+    .nome >p{
+    
+        position: absolute;
+        width: 140px;
+        height: 20px;
+        text-align: center;
+    left: 180px;
+    top: 162px;
+    
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    /* identical to box height, or 154% */
+    
+    letter-spacing: 0.2px;
+    
+    color: #929DA9;
+    
+    
+    }
+    
+    .dadosUser>.list-group > li{
+        margin: 10px 0px;
+        background-color: #FED141;
+    
+    }
+    
+    
+    
+    .perfilId {
+        width: 425px;
+        height: 1000px;
+        background-color: #FFFFFF;
+        position: relative;
+        flex-direction:column;
+        display: flex;
+        top: 0px;
+    
+    
+    
+    }
+    
+    .perfilUpload {
+        width: 425px;
+        height: 900px;
+        background-color: #FFFFFF;
+        position: relative;
+        flex-direction:column;
+        display: flex;
+        top: 0px;
+    }
+    
+    .input-img-upload{
+        width: 150px !important;
+        position: relative;
+        top: 0px;
+        height: 60px;
+        border-radius: 50px !important;
+        background-color: transparent !important;
+        margin: auto;
+        display: flex;
+        left: 7px;
+        box-shadow: none !important;
+        z-index: 0;
+    }
+    
+    .perfilId > .barra-fixed {
+        position: fixed !important;
+        width: 425px;
+        height: 65px;
+        z-index: 3000;
+        top: 0px;
+        background-color: #FED141;
+        box-shadow: 0px 7px 35px rgba(0, 0, 0, 0.2);
+    
+       
+    
+    }
+    
+    .perfilUpload > .barra-fixed {
+        position: fixed !important;
+        width: 425px;
+        height: 65px;
+        z-index: 3000;
+        top: 0px;
+        background-color: #FED141;
+        box-shadow: 0px 7px 35px rgba(0, 0, 0, 0.2);
+    
+       
+    
+    }
+    
+    
+    
+    
+    
+    .perfilId > div> .barra-alta-home {
+        position: relative !important;
+        width: 425px;
+        height: 65px;
+        left: 0px;
+        top: 10px;
+        display: flex;
+        margin: auto;
+        z-index: 3000;
+    
+    }
+    
+    .nivel > .level-maximo{
+    
+        position: absolute;
+        width: 10px;
+        height: 23px;
+        left: 240px;
+        top: -3px;
+        right: 0px;
+        text-align: right;
+        font-size: 19px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        line-height: 22px;
+        /* identical to box height */
+        
+        
+        color: #FED141;
+        
+    }
+    
+    .nivel > b{
+        position: absolute;
+    width: 10px;
+    height: 23px;
+    left: -20px;
+    top: -2px;
+    text-align: left;
+    font-size: 19px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+    /* identical to box height */
+    
+    
+    color: #FED141;
+    
+    }
+    .nivel-tutu{
+        position: absolute;
+    width: 250px;
+    height: 23px;
+    left: 50px;
+    top: 232px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    
+    text-align: left;
+    color: #FED141;
+    }
+    
+    .progress{
+    width: 230px !important;
+    height: 15px !important;
+    }
+    .nivel{
+        width: 230px;
+        height: 15px;
+        position: relative;
+    left: -15px;
+    top: 240px;
+    margin: auto;
+    display: flex;
+    
+    background: #E2E2E2;
+    border-radius: 2px;
+    }
+    
+    .perfilUpload > div> .barra-alta-home {
+        position: relative !important;
+        width: 425px;
+        height: 65px;
+        left: 0px;
+        top: 10px;
+        display: flex;
+        margin: auto;
+        z-index: 3000;
+    
+    }
+    
+    
+    .button-upload-dados {
+    
+        width: 215.73px;
+        height: 50.26px;
+        top: 150px;
+        position: relative;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 27px;
+        background: #FED141 !important;
+        border: solid 1px #FED141 !important;
+        color: #FFFFFF;
+    
+    }
+    
+    .input-img{
+    
+        height: 45px;
+        border-radius: 20px;
+        top: 130px;
+        position: relative;
+        margin: auto;
+        flex-direction: column-reverse;
+    
+    }
+    
+    .form-control[type=file]:not(:disabled):not([readonly]){
+        border: solid 1px #000;
+    }
+    
+    .imageId {
+        position: relative;
+        width: 200px;
+        height: 200px;
+        left: 0px;
+        top:50px;
+        background-blend-mode: normal;
+        border-radius: 50%;
+        margin: auto;
+        display: grid;
+    }
+    
+    .imageId > img {
+        position: relative;
+        width: 200px;
+        height: 200px;
+        left: 0px;
+        top:0px;
+        background-blend-mode: normal;
+        border-radius: 50%;
+        margin: auto;
+        display: grid;
+        border: solid 2px #424D59;
+    
+    }
+    
+    .imageId > .icon-usuario {
+        position: relative;
+        width: 100px;
+        height:100px;
+        left: 0px;
+        top:10px;
+        background-blend-mode: normal;
+        border-radius: 50%;
+        margin: auto;
+        display: grid;
+    }
+    
+    .dadosUser>.list-group > li{
+        margin: 1px;
+        text-align: left;
+    }
+    
+    .dadosUser>.list-group > li{
+        margin: 1px;
+        color: #424D59;
+    }
+    
+    .fw-bold{
+        color: #fff;
+    
+    }
+    
+    .dadosUser{
+        width: 380px;
+        height: 530px;
+        margin: auto;
+        flex-direction: column;
+        display: flex;
+        position: relative;
+        top: 0px;
+    }
+    
+    
+    .perfiledit>.dadosUser{
+        width: 380px;
+        height: 520px;
+        margin: auto;
+        flex-direction: column;
+        display: flex;
+        position: relative;
+        top: -100px;
+    }
+    
+    .imageId-user > img {
+        position: relative;
+        width: 100px;
+        height: 100px;
+        left: 0px;
+        top:0px;
+        background-blend-mode: normal;
+        border-radius: 50%;
+        margin: auto;
+        display: grid;
+    
+    }
+    
+    .imageId-user {
+        position: relative;
+        width: 200px;
+        height: 200px;
+        left: 0px;
+        top:90px;
+        background-blend-mode: normal;
+        border-radius: 50%;
+        margin: auto;
+        display: grid;
+        z-index: 2000 !important;
+        border: solid 2px #424D59;
+    
+    }
+    
+    .perfiledit >.dadosUser> form > button{
+    
+        position: relative;
+        top: 30px;
+    
+    
+    }
+    
+    .perfiledit > form > button{
+    
+        position: relative;
+        top: 110px;
+        width: 130px;
+        margin: 0px 5px;
+    
+    
+    }
+    
+    
+    .modal-body > button{
+    
+        width: 200px;
+        margin: auto;
+        display: grid;
+        padding: 10px;
+        
+    }
+    
+    .perfiledit > form > .imageId> .input-img{
+    
+        height: 220px;
+        border-radius: 10px;
+        top: -270px;
+        width: 190px;
+        position: relative;
+        margin: auto;
+        flex-direction: column-reverse;
+    
+    }
+    
+    .perfiledit > form > .imageId {
+        position: relative;
+        width: 200px;
+        height: 200px;
+        left: 0px;
+        top:100px;
+        background-blend-mode: normal;
+        border-radius: 50%;
+        margin: auto;
+        display: grid;
+    }
+    
+    
+    .perfiledit {
+        width: 425px;
+        height: 1100px;
+        margin: auto;
+        position: relative;
+        flex-direction:column;
+        display: flex;
+        background-color: #FFFFFF;
+    
+    
+    
+    
+    }
+    
+    .perfil-create-user {
+        width: 425px;
+        min-height: 900px !important;
+        margin: auto;
+        position: relative;
+        flex-direction:column;
+        display: flex;
+        background-color: #FFFFFF;
+    
+    
+    
+    
+    }
+    
+    
+    
+    .barra-fixed {
+       
+        box-shadow: 0px 7px 35px rgba(0, 0, 0, 0.2) !important;
+    
+       
+    
+    }
+    
+    .perfiledit > .barra-fixed {
+        position: fixed !important;
+        width: 425px;
+        height: 65px;
+        z-index: 3000;
+        top: 0px;
+        background: #FED141;
+        box-shadow: 0px 7px 35px rgba(0, 0, 0, 0.2);
+    
+       
+    
+    }
+    
+    .title-dados > b{
+        position: absolute;
+        width: 270px;
+        height: 45px;
+        left: 0px;
+        top: -100px;
+        text-align: left;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 45px;
+        
+        color: #424D59;
+        
+    }
+    
+    .title-dados-foto > b{
+        position: absolute;
+        width: 270px;
+        height: 45px;
+        left: 50px;
+        top: 0px;
+        text-align: left;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 45px;
+        
+        color: #424D59;
+        
+    }
+    
+    .perfil-create-user > .dadosUser{
+        position: relative;
+        top: 50px;
+        width: 370px;
+
+    }
+    
+    .perfiledit> .barra-fixed >.barra-alta-home {
+        position: absolute;
+        width: 425px;
+        height: 55px;
+        left: 0px;
+        top: 10px;
+        display: flex;
+        background: #FED141;
+    
+    }
+    
+    
+    
+    .button-edit-dados{
+        width: 215.73px;
+    height: 50.26px;
+    top: 50px;
+    position: relative;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    background: #FED141 !important;
+    border: solid 1px #FED141 !important;
+    
+    color: #FFFFFF;
+    }
+    
+    .form-label{
+    text-align: left;
+    width: 400px;
+    color: #424D59;
+    }
+    
+    .edit-button{
+        height: 50px;
+        width: 150px;
+        text-align: center;
+        position: relative;
+        top: 75px;
+        left: 80px;
+    }
+    
+    
+    
+    
+
+
+    
+}
+
+
+
+
+
+@media (max-width:991px) and (min-width:426px) {
+
+
+    .perfil {
+        width: 700px !important;
+        height: 400px !important;
+        margin: auto;
+        position: relative;
+        left: 0px;
+
+    
+    
+    }
+
+    .perfil-create-user > .dadosUser > form > button{
+
+        position: relative; 
+        top: 50px;
+    
+    
+    }
+    
+    .perfil-create-user > .dadosUser > form{
+    
+        width: 700px;
+        min-height: 500px;
+        position: relative; 
+        top: 40px;
+    
+    }
+    
+    .perfil-create-user > .dadosUser{
+        position: relative;
+        width: 700px;
+        min-height: 600px;
+    }
+
+    .perfiledit > form > button {
+        position: absolute;
+        top: 110px;
+        width: 130px;
+        margin: 35px 5px;
+        right: 0px;
+    }
+
+
+    .perfiledit> form{
+
+        width: 700px;
+        height: 500px;
+        margin: 0px 40px;
+        flex-direction:row;
+        position:relative;
+        right: 0px;
+        top: 0px;
+        margin: auto;
+    
+    }
+    
+    .image > img {
+        position: absolute;
+        width: 150px;
+        height: 150px;
+        left: 0px;
+        top: -0px;
+        background-blend-mode: normal;
+        border-radius: 50%;
+        border: solid 2px #424D59;
+    
+    }
+    
+    .image {
+        position: absolute;
+        width: 87px;
+        height: 87px;
+        left: 69px;
+        top: 136px;
+        background-blend-mode: normal;
+        border-radius: 50px;
+    }
+    
+    .nome > h2{
+    
+        position: absolute;
+    height: 32px;
+    left: 260px;
+    top: 182px;
+    width: 200px;
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+    
+    letter-spacing: 0.2px;
+    
+    color: #FED141;
+    
+    }
+    
+    .barra-baixa{
+        position: relative;
+    width: 700px;
+    height: 0px;
+    left: 0px;
+    top: 360px;
+    border: 1px solid #D7D7D7;
+    margin: auto;
+    }
+    
+    .nome >p{
+    
+        position: absolute;
+        width: 200px;
+        height: 20px;
+        text-align: center;
+    left: 260px;
+    top: 162px;
+    
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    /* identical to box height, or 154% */
+    
+    letter-spacing: 0.2px;
+    
+    color: #929DA9;
+    
+    
+    }
+    
+    .dadosUser>.list-group > li{
+        margin: 10px 0px;
+        background-color: #FED141;
+    
+    }
+    
+    
+    
+    .perfilId {
+        width: 991px;
+        height: 1000px;
+        background-color: #FFFFFF;
+        position: relative;
+        flex-direction:column;
+        display: flex;
+        top: 0px;
+    
+    
+    
+    }
+    
+    .perfilUpload {
+        width: 991px;
+        min-height: 140vh;
+        background-color: #FFFFFF;
+        position: relative;
+        flex-direction:column;
+        display: flex;
+        top: 0px;
+    }
+    
+    .input-img-upload{
+        width: 150px !important;
+        position: relative;
+        top: 0px;
+        height: 60px;
+        border-radius: 50px !important;
+        background-color: transparent !important;
+        margin: auto;
+        display: flex;
+        left: 7px;
+        box-shadow: none !important;
+        z-index: 0;
+    }
+    
+    .perfilId > .barra-fixed {
+        position: fixed !important;
+        width: 991px;
+        height: 85px;
+        z-index: 3000;
+        top: 0px;
+        background-color: #FED141;
+        box-shadow: 0px 7px 35px rgba(0, 0, 0, 0.2);
+    
+       
+    
+    }
+    
+    .perfilUpload > .barra-fixed {
+        position: fixed !important;
+        width: 991px;
+        height: 85px;
+        z-index: 3000;
+        top: 0px;
+        background-color: #FED141;
+        box-shadow: 0px 7px 35px rgba(0, 0, 0, 0.2);
+    
+       
+    
+    }
+    
+    
+    
+    
+    
+    .perfilId > div> .barra-alta-home {
+        position: relative !important;
+        width: 991px;
+        height: 85px;
+        left: 0px;
+        top: 10px;
+        display: flex;
+        margin: auto;
+        z-index: 3000;
+    
+    }
+    
+    .nivel > .level-maximo{
+    
+        position: absolute;
+        width: 10px;
+        height: 23px;
+        top: -3px;
+        left: 510px;
+        text-align: right;
+        font-size: 19px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        line-height: 22px;
+        /* identical to box height */
+        color: #FED141;
+        
+    }
+    
+    .nivel > b{
+        position: absolute;
+    width: 10px;
+    height: 23px;
+    left: -20px;
+    top: -2px;
+    text-align: left;
+    font-size: 19px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+    /* identical to box height */
+    
+    
+    color: #FED141;
+    
+    }
+    .nivel-tutu{
+        position: absolute;
+    width: 250px;
+    height: 23px;
+    left: 50px;
+    top: 320px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    
+    text-align: left;
+    color: #FED141;
+    }
+    
+    .progress{
+    height: 15px !important;
+    }
+    .nivel{
+        width: 500px;
+        height: 15px;
+        position: relative;
+    left: -15px;
+    top: 340px;
+    margin: auto;
+    display: flex;
+    
+    background: #E2E2E2;
+    border-radius: 2px;
+    }
+    
+    .perfilUpload > div> .barra-alta-home {
+        position: relative !important;
+        width: 425px;
+        height: 65px;
+        left: 0px;
+        top: 10px;
+        display: flex;
+        margin: auto;
+        z-index: 3000;
+    
+    }
+    
+    
+    .button-upload-dados {
+    
+        width: 215.73px;
+        height: 50.26px;
+        top: 150px;
+        position: relative;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 27px;
+        background: #FED141 !important;
+        border: solid 1px #FED141 !important;
+        color: #FFFFFF;
+    
+    }
+    
+    .input-img{
+    
+        height: 45px;
+        border-radius: 20px;
+        top: 130px;
+        position: relative;
+        margin: auto;
+        flex-direction: column-reverse;
+    
+    }
+    
+    .form-control[type=file]:not(:disabled):not([readonly]){
+        border: solid 1px #000;
+    }
+    
+    .imageId {
+        position: relative;
+        width: 200px;
+        height: 200px;
+        left: 0px;
+        top:50px;
+        background-blend-mode: normal;
+        border-radius: 50%;
+        margin: auto;
+        display: grid;
+    }
+    
+    .imageId > img {
+        position: relative;
+        width: 200px;
+        height: 200px;
+        left: 0px;
+        top:0px;
+        background-blend-mode: normal;
+        border-radius: 50%;
+        margin: auto;
+        display: grid;
+        border: solid 2px #424D59;
+    
+    }
+    
+    .imageId > .icon-usuario {
+        position: relative;
+        width: 100px;
+        height:100px;
+        left: 0px;
+        top:10px;
+        background-blend-mode: normal;
+        border-radius: 50%;
+        margin: auto;
+        display: grid;
+    }
+    
+    .dadosUser>.list-group > li{
+        margin: 1px;
+        text-align: left;
+    }
+    
+    .dadosUser>.list-group > li{
+        margin: 1px;
+        color: #424D59;
+    }
+    
+    .fw-bold{
+        color: #fff;
+    
+    }
+    
+    .dadosUser{
+        height: 530px;
+        margin: auto;
+        flex-direction: column;
+        display: flex;
+        position: relative;
+        top: 0px;
+    }
+    
+    
+    .perfiledit>.dadosUser{
+        width: 700px;
+        height: 520px;
+        margin: auto;
+        flex-direction: column;
+        display: flex;
+        position: relative;
+        top: -100px;
+    }
+    
+    .imageId-user > img {
+        position: relative;
+        width: 100px;
+        height: 100px;
+        left: 0px;
+        top:0px;
+        background-blend-mode: normal;
+        border-radius: 50%;
+        margin: auto;
+        display: grid;
+    
+    }
+    
+    .imageId-user {
+        position: relative;
+        width: 200px;
+        height: 200px;
+        left: 0px;
+        top:90px;
+        background-blend-mode: normal;
+        border-radius: 50%;
+        margin: auto;
+        display: grid;
+        z-index: 2000 !important;
+        border: solid 2px #424D59;
+    
+    }
+    
+    .perfiledit >.dadosUser> form > button{
+    
+        position: relative;
+        top: 30px;
+    
+    
+    }
+    
+    .perfiledit > form > button{
+    
+        position: relative;
+        top: 110px;
+        width: 130px;
+        margin: 0px 5px;
+    
+    
+    }
+    
+    
+    .modal-body > button{
+    
+        width: 200px;
+        margin: auto;
+        display: grid;
+        padding: 10px;
+        
+    }
+    
+    .perfiledit > form > .imageId> .input-img{
+    
+        height: 220px;
+        border-radius: 10px;
+        top: -270px;
+        width: 190px;
+        position: relative;
+        margin: auto;
+        flex-direction: column-reverse;
+    
+    }
+    
+    .perfiledit > form > .imageId {
+        position: relative;
+        width: 200px;
+        height: 200px;
+        left: 0px;
+        top:100px;
+        background-blend-mode: normal;
+        border-radius: 50%;
+        margin: auto;
+        display: grid;
+    }
+    
+    
+    .perfiledit {
+        width: 991px;
+        height: 1100px;
+        margin: auto;
+        position: relative;
+        flex-direction:column;
+        display: flex;
+        background-color: #FFFFFF;
+    
+    
+    
+    
+    }
+    
+    .perfil-create-user {
+        width: 991px;
+        min-height: 140vh !important;
+        margin: auto;
+        position: relative;
+        flex-direction:column;
+        display: flex;
+        background-color: #FFFFFF;
+    
+    
+    
+    
+    }
+    
+    
+    
+    .barra-fixed {
+       
+        box-shadow: 0px 7px 35px rgba(0, 0, 0, 0.2) !important;
+    
+       
+    
+    }
+    
+    .perfiledit > .barra-fixed {
+        position: fixed !important;
+        width: 991px;
+        height: 85px;
+        z-index: 3000;
+        top: 0px;
+        background: #FED141;
+        box-shadow: 0px 7px 35px rgba(0, 0, 0, 0.2);
+    
+       
+    
+    }
+    
+    .title-dados > b{
+        position: absolute;
+        width: 270px;
+        height: 45px;
+        left: 0px;
+        top: -100px;
+        text-align: left;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 45px;
+        
+        color: #424D59;
+        
+    }
+    
+    .title-dados-foto > b{
+        position: absolute;
+        width: 270px;
+        height: 45px;
+        left: 50px;
+        top: 0px;
+        text-align: left;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 45px;
+        
+        color: #424D59;
+        
+    }
+    
+    .perfil-create-user > .dadosUser{
+        position: relative;
+        width: 700px;
+
+    }
+    
+    .perfiledit> .barra-fixed >.barra-alta-home {
+        position: absolute;
+        width: 425px;
+        height: 55px;
+        left: 0px;
+        top: 10px;
+        display: flex;
+        background: #FED141;
+    
+    }
+    
+    
+    
+    .button-edit-dados{
+        width: 215.73px;
+    height: 50.26px;
+    top: 50px;
+    position: relative;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    background: #FED141 !important;
+    border: solid 1px #FED141 !important;
+    
+    color: #FFFFFF;
+    }
+    
+    .form-label{
+    text-align: left;
+    width: 700px;
+    color: #424D59;
+    }
+    
+    .edit-button{
+        height: 50px;
+        width: 150px;
+        text-align: center;
+        position: relative;
+        top: 75px;
+        left: 80px;
+    }
+    
+    
+    
+    
+
+
+    
+}
+
+

@@ -1,0 +1,901 @@
+.logincreate {
+    background: #FFFFFF;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.logincreate>.barra {
+
+    position: absolute;
+    width: 100%;
+    height: 15px;
+    left: 0px;
+    top: -10px;
+    display: flex;
+
+    background: #FED141;
+}
+
+.Logo-login {
+
+    position: absolute;
+    width: 140px;
+    height: 27.25px;
+    left: 145px;
+    top: 95px;
+
+
+}
+
+.App-texto>b {
+    color: #000;
+}
+
+
+
+.App-texto-create>h3 {
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 28px;
+    text-align: center;
+    color: #424D59;
+    text-align: left;
+    display: grid;
+
+}
+
+.App-texto-create>p {
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 28px;
+    text-align: center;
+    color: #929DA9;
+    text-align: left;
+    display: grid;
+    width: 400px;
+
+}
+
+.App-texto-create {
+
+    position: relative;
+    width: 700px;
+    height: 54px;
+    left: 0px;
+    top: 0px;
+    margin: auto;
+    text-align: left;
+    display: grid;
+}
+
+.logincreate>.barra-alta {
+
+    width: 100%;
+    height: 65px;
+    left: 0px;
+    top: 0px;
+    display: flex;
+
+    background: #FED141;
+}
+
+.Logo-alta {
+
+    margin: 20px auto !important;
+    width: 140px !important;
+    background-color: yellowgreen;
+    height: 20px;
+    display: grid;
+    top: 20px;
+    right: 0px;
+
+
+}
+
+#basic-addon1 {
+    background-color: #fff;
+    border: #fff;
+    box-shadow: 0px 2px 0px 0px #000;
+    border-radius: 0px;
+
+}
+
+.form-control {
+    background-color: #fff;
+    border: #fff !important;
+    box-shadow: 0px 2px 0px 0px #000;
+    border-radius: 0px !important;
+
+}
+
+svg {
+    color: #FED141;
+}
+
+.esquece-senha {
+    position: relative;
+    width: 175px;
+    height: 18px;
+    left: 195px;
+    top: -10px;
+    text-align: right;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 18px;
+    /* identical to box height */
+    color: #424D59;
+}
+
+.logincreate>.form-create>form>button {
+
+    position: absolute;
+    left: 0;
+    bottom: -230px;
+
+
+
+}
+.logincreate>.form-create > form{
+    width: 700px;
+    height: 200px;
+
+}
+
+.logincreate>.form-create {
+
+    width: 700px;
+    height: 500px;
+    position: relative;
+}
+
+
+.button-home {
+    position: relative;
+    width: 300px;
+    height: 45px;
+    top: 10px;
+    margin: auto;
+    display: grid;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+
+    color: #FFFFFF;
+
+    background: #FED141 !important;
+    border-radius: 2px;
+    border-color: #FED141 !important;
+    border-radius: 2px;
+}
+
+.button-create-app {
+    position: relative;
+    width: 300px;
+    height: 45px;
+    top: 140px;
+    margin: auto;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+
+    color: #FFFFFF;
+
+    background: #FED141 !important;
+    border-radius: 2px;
+    border-color: #FED141 !important;
+}
+
+.criar {
+    position: relative;
+    width: 300px;
+    height: 20px;
+    left: 0;
+    margin: auto;
+    top: 35px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+
+    color: #424D59;
+}
+
+.form-create {
+    position: relative;
+    width: 380px;
+    height: 85px;
+    left: 0px;
+    top: 0px;
+    margin: auto;
+    display: grid;
+
+}
+
+.logincreate>.barra2 {
+
+    position: absolute;
+    width: 425px;
+    height: 15px;
+    left: 0px;
+    top: 797px;
+
+    background: #FED141;
+}
+
+.form-create>form>.criar {
+    position: absolute;
+    width: 700px;
+    height: 20px;
+    margin: auto;
+    right: 0;
+    bottom: -270px;
+    font-family: 'Nunito';
+    font-style: normal;
+    text-align: right;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: #424D59;
+}
+
+
+@media (max-width:425px) {
+
+
+    .logincreate {
+        position: relative;
+        background: #FFFFFF;
+        width: 425px;
+        height: 900px !important;
+        margin: auto;
+        justify-content: center;
+        top: 10px;
+
+    }
+
+    .logincreate>.form-create>form>button {
+
+        position: relative;
+        left: 0;
+        margin: 30px 0px;
+
+
+
+    }
+
+
+    .logincreate>.barra {
+
+        position: absolute;
+        width: 425px;
+        height: 15px;
+        left: 0px;
+        top: -10px;
+        display: flex;
+
+        background: #FED141;
+    }
+
+    .Logo-login {
+
+        position: absolute;
+        width: 140px;
+        height: 27.25px;
+        left: 145px;
+        top: 95px;
+
+
+    }
+
+    .App-texto>b {
+        color: #000;
+    }
+
+
+
+    .App-texto-create>h3 {
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 28px;
+        text-align: center;
+        color: #424D59;
+        text-align: left;
+        display: grid;
+
+    }
+
+    .App-texto-create>p {
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        text-align: center;
+        color: #929DA9;
+        text-align: left;
+        display: grid;
+
+    }
+
+    .App-texto-create {
+
+        position: relative;
+        width: 380px;
+        height: 54px;
+        left: 0px;
+        top: 0px;
+        margin: auto;
+        text-align: left;
+        display: grid;
+    }
+
+    .logincreate>.barra-alta {
+
+        position: absolute;
+        width: 425px;
+        height: 65px;
+        left: 0px;
+        top: -10px;
+        display: flex;
+
+        background: #FED141;
+    }
+
+    .form-create>p {
+        position: relative;
+        width: 300px;
+        height: 20px;
+        left: 0;
+        margin: auto;
+        top: 35px;
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 20px;
+        color: #424D59;
+    }
+
+    .criar {
+        position: relative;
+        width: 300px;
+        height: 20px;
+        left: 0;
+        margin: auto;
+        top: 35px;
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 20px;
+        color: #424D59;
+    }
+
+    .Logo-alta {
+
+        position: absolute;
+        width: 103px;
+        height: 20px;
+        left: 252px;
+        top: 10px;
+        margin: 5px auto !important;
+
+
+
+    }
+
+    #basic-addon1 {
+        background-color: #fff;
+        border: #fff;
+        box-shadow: 0px 2px 0px 0px #000;
+        border-radius: 0px;
+
+    }
+
+    .form-control {
+        background-color: #fff;
+        border: #fff !important;
+        box-shadow: 0px 2px 0px 0px #000;
+        border-radius: 0px !important;
+
+    }
+
+    svg {
+        color: #FED141;
+    }
+
+    .esquece-senha {
+        position: relative;
+        width: 175px;
+        height: 18px;
+        left: 195px;
+        top: -10px;
+        text-align: right;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 18px;
+        /* identical to box height */
+        color: #424D59;
+    }
+
+    .logincreate>.form-create {
+
+        width: 370px;
+        height: 550px;
+        position: relative;
+        margin-top: -70px;
+    }
+
+    .logincreate>.form-create > form {
+        width: 370px;
+        height: 200px;
+
+    }
+
+
+    .button-home {
+        position: relative;
+        width: 300px;
+        height: 45px;
+        top: 10px;
+        margin: auto;
+        display: grid;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 27px;
+
+        color: #FFFFFF;
+
+        background: #FED141 !important;
+        border-radius: 2px;
+        border-color: #FED141 !important;
+        border-radius: 2px;
+    }
+
+    .button-create-app {
+        position: relative;
+        width: 300px;
+        height: 45px;
+        top: 140px;
+        margin: auto;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 27px;
+
+        color: #FFFFFF;
+
+        background: #FED141 !important;
+        border-radius: 2px;
+        border-color: #FED141 !important;
+    }
+
+    .form-create > form > .criar {
+        position: absolute;
+        width: 370px !important;
+        height: 20px;
+        margin: auto;
+        right: 0;
+        bottom: 20px;
+        font-family: 'Nunito';
+        font-style: normal;
+        text-align: right;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 20px;
+        color: #424D59;
+    }
+    .form-create>form>.criar {
+        position: absolute;
+        width: 700px;
+        height: 20px;
+        margin: auto;
+        right: 0;
+        bottom: -290px !important;
+        font-family: 'Nunito';
+        font-style: normal;
+        text-align: right;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 20px;
+        color: #424D59;
+
+    }
+
+    .criar {
+        position: relative;
+        width: 300px;
+        height: 20px;
+        left: 0;
+        margin: auto;
+        top: 35px;
+
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 20px;
+
+        color: #424D59;
+    }
+
+    .form-create {
+        position: relative;
+        width: 380px;
+        height: 85px;
+        left: 0px;
+        top: 200px;
+        margin: auto;
+        display: grid;
+
+    }
+
+    .logincreate>.barra2 {
+
+        position: absolute;
+        width: 425px;
+        height: 15px;
+        left: 0px;
+        top: 797px;
+
+        background: #FED141;
+    }
+
+
+
+
+}
+
+
+
+@media (max-width:991px) and (min-width:426px) {
+
+
+    .logincreate {
+        position: relative;
+        background: #FFFFFF;
+        width: 991px;
+        height: 900px !important;
+        margin: auto;
+        justify-content: center;
+        top: 10px;
+
+    }
+
+    .logincreate>.form-create>form>button {
+
+        position: relative;
+        left: 0;
+        margin: -30px 0px;
+
+
+
+    }
+
+
+    .logincreate>.barra {
+
+        position: absolute;
+        width: 991px;
+        height: 15px;
+        left: 0px;
+        top: -10px;
+        display: flex;
+
+        background: #FED141;
+    }
+
+    .Logo-login {
+
+        position: absolute;
+        width: 140px;
+        height: 27.25px;
+        left: 145px;
+        top: 95px;
+
+
+    }
+
+    .App-texto>b {
+        color: #000;
+    }
+
+
+
+    .App-texto-create>h3 {
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 28px;
+        text-align: center;
+        color: #424D59;
+        text-align: left;
+        display: grid;
+
+    }
+
+    .App-texto-create>p {
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        text-align: center;
+        color: #929DA9;
+        text-align: left;
+        display: grid;
+
+    }
+
+    
+    .App-texto-create {
+
+        position: relative;
+        width: 600px;
+        height: 54px;
+        left: 0px;
+        top: -40px;
+        margin: auto;
+        text-align: left;
+        display: grid;
+    }
+
+    .logincreate>.barra-alta {
+
+        position: absolute;
+        width: 991px;
+        height: 85px;
+        left: 0px;
+        top: -10px;
+        display: flex;
+
+        background: #FED141;
+    }
+
+    .form-create>p {
+        position: relative;
+        width: 300px;
+        height: 20px;
+        left: 0;
+        margin: auto;
+        top: 35px;
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 20px;
+        color: #424D59;
+    }
+
+    .criar {
+        position: relative;
+        width: 300px;
+        height: 20px;
+        left: 0;
+        margin: auto;
+        top: 35px;
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 20px;
+        color: #424D59;
+    }
+
+    .Logo-alta {
+
+        position: absolute;
+        width: 103px;
+        height: 20px;
+        left: 252px;
+        top: 10px;
+        margin: 5px auto !important;
+
+
+
+    }
+
+    #basic-addon1 {
+        background-color: #fff;
+        border: #fff;
+        box-shadow: 0px 2px 0px 0px #000;
+        border-radius: 0px;
+
+    }
+
+    .form-control {
+        background-color: #fff;
+        border: #fff !important;
+        box-shadow: 0px 2px 0px 0px #000;
+        border-radius: 0px !important;
+
+    }
+
+    svg {
+        color: #FED141;
+    }
+
+    .esquece-senha {
+        position: relative;
+        width: 175px;
+        height: 18px;
+        left: 195px;
+        top: -10px;
+        text-align: right;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 18px;
+        /* identical to box height */
+        color: #424D59;
+    }
+
+    .logincreate>.form-create {
+
+        width: 600px;
+        height: 660px;
+        position: relative;
+    }
+
+    .logincreate>.form-create > form {
+        width: 600px;
+        position: relative;
+        top: -50px;
+
+    }
+
+
+    .button-home {
+        position: relative;
+        width: 300px;
+        height: 45px;
+        top: 10px;
+        margin: auto;
+        display: grid;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 27px;
+
+        color: #FFFFFF;
+
+        background: #FED141 !important;
+        border-radius: 2px;
+        border-color: #FED141 !important;
+        border-radius: 2px;
+    }
+
+    .button-create-app {
+        position: relative;
+        width: 300px;
+        height: 45px;
+        top: 140px;
+        margin: auto;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 27px;
+
+        color: #FFFFFF;
+
+        background: #FED141 !important;
+        border-radius: 2px;
+        border-color: #FED141 !important;
+    }
+
+    .form-create > form > .criar {
+        position: absolute;
+        height: 20px;
+        margin: auto;
+        right: 0;
+        bottom: 20px;
+        font-family: 'Nunito';
+        font-style: normal;
+        text-align: right;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 20px;
+        color: #424D59;
+    }
+    .form-create>form>.criar {
+        position: absolute;
+        width: 600px !important;
+        height: 20px;
+        margin: auto;
+        right: 0;
+        bottom: -100px !important;
+        font-family: 'Nunito';
+        font-style: normal;
+        text-align: right;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 20px;
+        color: #424D59;
+        text-align: right;
+
+    }
+
+    .criar {
+        position: relative;
+        width: 300px;
+        height: 20px;
+        left: 0;
+        margin: auto;
+        top: 35px;
+
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 20px;
+
+        color: #424D59;
+    }
+
+    .form-create {
+        position: relative;
+        width: 380px;
+        height: 85px;
+        left: 0px;
+        top: 200px;
+        margin: auto;
+        display: grid;
+
+    }
+
+    .logincreate>.barra2 {
+
+        position: absolute;
+        width: 425px;
+        height: 15px;
+        left: 0px;
+        top: 797px;
+
+        background: #FED141;
+    }
+
+
+
+
+}

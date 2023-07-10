@@ -1,0 +1,25 @@
+.loading {
+    background: #FED141;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.loading>div {
+
+    width: 140px;
+    height: 30px;
+    position: relative;
+}
+
+div:where(.swal2-container).swal2-center>.swal2-popup,
+div:where(.swal2-container) div:where(.swal2-timer-progress-bar) {
+    top: 100px;
+    position: relative;
+    z-index: 3000;
+}

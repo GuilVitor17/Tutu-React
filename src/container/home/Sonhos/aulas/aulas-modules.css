@@ -1,0 +1,1062 @@
+.aulas{
+    width: 100%;
+    background-color: #FFFFFF;
+    position: relative;
+    flex-direction: column;
+    display: flex;
+    top: 5px
+}
+
+.aulas > div> .barra-alta-home {
+    position: relative !important;
+    width: 100%;
+    height: 65px;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    margin: auto;
+    z-index: 3000;
+}
+
+.menu-aulas{
+position: absolute;
+width: 100%;
+height: 100vh;
+left: 0px;
+bottom: 0px;
+top: 100%;
+background: #FED141;
+border-radius: 30px 30px 0px 0px;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+transform: none;
+
+}
+
+.menu-aulas > .aulas-container::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  .menu-aulas > .aulas-container::-webkit-scrollbar-track {
+    background: #C4C4C4;        /* color of the tracking area */
+  }
+  
+  .menu-aulas > .aulas-container::-webkit-scrollbar-thumb {
+    background-color: #FED141;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid #C4C4C4;  /* creates padding around scroll thumb */
+  }
+
+.menu-aulas > b{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 30px;
+    /* identical to box height */
+    margin: auto;
+position: absolute;
+width: 100%;
+height: 30px;
+left: 0px;
+top: 20px;
+color: #FFFFFF;
+}
+
+.menu-aulas > .aulas-container {
+    width: 900px;
+    height: 460px;
+    position: relative;
+    margin: auto;
+    display:flex;
+    top: 70px;
+    flex-direction:column;
+    overflow-y: scroll;
+
+
+}
+
+.aulas > a > .perfil {
+    width: 900px;
+    height: 400px;
+    margin: 40px auto;
+    position: relative;
+    left: 0px;
+}
+
+.menu-aulas > .aulas-container > div{
+
+    display: flex;
+    flex-direction:row;
+    align-items: flex-start;
+    padding: 15px;
+    gap: 15px;
+    margin: 5px 0px;
+    position: relative;
+    width: 100%;
+    height: 109px;
+    left: 0px;
+    top: 1px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+
+
+.menu-aulas > .aulas-container > div > .aula-play > svg{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    top: 13px;
+    color: #FFFFFF;
+
+}
+
+.menu-aulas > .aulas-container > div > .aula-play{
+    width: 85px;
+    height: 75px;
+    background-image: url(../../../../img/curso.png);
+    border-radius: 5px;
+    background-size: cover;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.menu-aulas > .aulas-container > div > .aula-description > h5,p{
+    width: 200px;
+    height: 18px;
+    
+    font-style: normal;
+    font-weight:bold;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    
+    
+    /* Colors / Dark / Base 1 */
+    
+    color: #161719;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.menu-aulas > .aulas-container > div > .aula-description > p{
+    width: 220px;
+    height: 18px;
+    
+    font-style: normal;
+    font-weight:bold;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height */
+    
+    
+    /* Colors / Dark / Base 1 */
+    
+    color: #161719;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.menu-aulas > .aulas-container > div > .aula-description{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 6px;
+
+width: 270px;
+height: 79px;
+font-size: 13px;
+text-align: left;
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+
+.aulas > .barra-fixed {
+    position: fixed !important;
+    width: 100%;
+    height: 65px;
+    z-index: 3000;
+    top: 0px;
+    background-color: #FED141;
+}
+
+iframe{
+    width: 800px;
+}
+
+.menu-aulas > .aulas-container > .accordion > .accordion-item{
+
+    width: 850px;
+    margin: 0px auto;
+    padding: 15px;
+    left: 0px;
+    position: relative;
+    border: solid #FFFFFF;
+    border-radius: 10px;
+
+
+
+}
+
+.menu-aulas > .aulas-container > .accordion > .accordion-item > .accordion-header {
+
+    border: 0.1px solid #ffff;
+}
+
+.menu-aulas > .aulas-container > .accordion > .accordion-item > .accordion-header > button {
+
+    background-color: #FFFFFF;
+    box-shadow: none;
+
+
+}
+
+.menu-aulas > .aulas-container > .accordion{
+
+    flex-direction: column;
+    background-color:#FED141;
+    width: 800px;
+
+}
+
+.swal2-actions > button{
+
+    width: 170px;
+    padding: 15px;
+
+}
+
+.swal2-actions{
+
+    width: 370px;
+    height: 60px;
+
+}
+
+.swal2-image{
+    height: 250px !important;
+    width:350px !important;
+}
+
+
+
+.menu-preparativo > b{
+
+    top: 70px;
+    position: relative;
+    color: #FFFFFF;
+
+
+
+
+}
+
+
+
+.menu-preparativo{
+
+
+    width: 600px;
+    margin: auto;
+    height: 400px;
+    background-color:#C4C4C4;
+    font-size: 22px;
+}
+
+.menu-preparativo > .aulas-preparativo{
+
+
+    width: 450px !important;
+    position: relative;
+    margin: auto;
+    height: 250px !important;
+    font-size: 22px;
+    top: 170px !important;
+}
+
+.menu-preparativo > .aulas-preparativo > form >.form-select {
+    padding: 15px;
+    border: 2px #FED141;
+
+
+}
+
+.menu-preparativo > .aulas-preparativo > form > button{
+    padding: 15px;
+    width: 250px;
+    top: 50px;
+    position: relative;
+    color: #FFFFFF;
+
+
+}
+
+
+.menu-preparativo > .aulas-preparativo{
+
+    width: 370px;
+    height: 200px;
+    position: relative;
+    top: 30px;
+
+
+}
+
+.aulas-preparativos{
+    width: 100%;
+    min-height: 100vh !important;
+    background-color: #FFFFFF;
+    position: relative;
+    flex-direction: column;
+    display: flex;
+    top: 5px
+}
+
+.aulas-preparativos > div> .barra-alta-home {
+    position: relative !important;
+    width: 100%;
+    height: 65px;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    margin: auto;
+    z-index: 3000;
+}
+
+.aulas-preparativos > .barra-fixed {
+    position: fixed !important;
+    width: 100%;
+    height: 65px;
+    z-index: 3000;
+    top: 0px;
+    background-color: #FED141;
+}
+
+
+@media (max-width:1200px) and (min-width:991px) {
+
+
+    
+    .aulas > a > .perfil {
+        width: 600px;
+        height: 400px;
+        margin: 40px auto;
+        position: relative;
+        left: 0px;
+    }
+}
+
+
+@media (max-width:425px) {
+
+    .aulas{
+        width: 425px;
+        min-height: 812px;
+        background-color: #FFFFFF;
+        position: relative;
+        flex-direction: column;
+        display: flex;
+        top: 5px
+    }
+
+    iframe{
+        width: 300px;
+    }
+    
+    .aulas > div> .barra-alta-home {
+        position: relative !important;
+        width: 425px;
+        height: 65px;
+        left: 0px;
+        top: 10px;
+        display: flex;
+        margin: auto;
+        z-index: 3000;
+    }
+    
+    .menu-aulas{
+        position: relative;
+    width: 425px;
+    height: 450px;
+    left: 0px;
+    bottom: -35px;
+    
+    background: #FED141;
+    border-radius: 30px 30px 0px 0px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    transform: none;
+    
+    }
+    
+    .menu-aulas > b{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 30px;
+        /* identical to box height */
+        
+    position: absolute;
+    width: 425px;
+    height: 30px;
+    left: 0px;
+    top: 20px;
+    color: #FFFFFF;
+    }
+    
+    .menu-aulas > .aulas-container {
+        width: 405px;
+        height: 300px;
+        position: relative;
+        margin: auto;
+        display:flex;
+        top: 70px;
+        flex-direction:column;
+        overflow-y: scroll;
+    
+    
+    }
+    
+    .menu-aulas > .aulas-container > div{
+    
+        display: flex;
+        flex-direction:row;
+        align-items: flex-start;
+        padding: 15px;
+        gap: 15px;
+        margin: 5px 0px;
+        position: relative;
+        width: 400px;
+        height: 109px;
+        left: 0px;
+        top: 1px;
+        border-radius: 10px;
+        background-color: #FFFFFF;
+    }
+    
+    
+    .menu-aulas > .aulas-container > div > .aula-play > svg{
+        position: relative;
+        width: 50px;
+        height: 50px;
+        margin: auto;
+        top: 13px;
+        color: #FFFFFF;
+    
+    }
+    
+    .menu-aulas > .aulas-container > div > .aula-play{
+        width: 85px;
+        height: 75px;
+        background-image: url(../../../../img/curso.png);
+        border-radius: 5px;
+        background-size: cover;
+        
+        /* Inside auto layout */
+        
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    
+    }
+    
+    .menu-aulas > .aulas-container > div > .aula-description > h5,p{
+        width: 200px;
+        height: 18px;
+        
+        font-style: normal;
+        font-weight:bold;
+        font-size: 15px;
+        line-height: 18px;
+        /* identical to box height */
+        
+        
+        /* Colors / Dark / Base 1 */
+        
+        color: #161719;
+        
+        
+        /* Inside auto layout */
+        
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    
+    }
+    
+    .menu-aulas > .aulas-container > div > .aula-description > p{
+        width: 220px;
+        height: 18px;
+        
+        font-style: normal;
+        font-weight:bold;
+        font-size: 14px;
+        line-height: 18px;
+        /* identical to box height */
+        
+        
+        /* Colors / Dark / Base 1 */
+        
+        color: #161719;
+        
+        
+        /* Inside auto layout */
+        
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    
+    }
+    
+    .menu-aulas > .aulas-container > div > .aula-description{
+        display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 6px;
+    
+    width: 270px;
+    height: 79px;
+    font-size: 13px;
+    text-align: left;
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    
+    }
+    
+    
+    .aulas > .barra-fixed {
+        position: fixed !important;
+        width: 425px;
+        height: 65px;
+        z-index: 3000;
+        top: 0px;
+        background-color: #FED141;
+    }
+    
+    .menu-aulas > .aulas-container > .accordion > .accordion-item{
+    
+        width: 370px;
+        margin: 0px auto;
+        padding: 15px;
+        left: 0px;
+        position: relative;
+        border: solid #FFFFFF;
+        border-radius: 10px;
+    
+    
+    
+    }
+    
+    .menu-aulas > .aulas-container > .accordion > .accordion-item > .accordion-header {
+    
+        border: 0.1px solid #ffff;
+    }
+    
+    .menu-aulas > .aulas-container > .accordion > .accordion-item > .accordion-header > button {
+    
+        background-color: #FFFFFF;
+        box-shadow: none;
+    
+    
+    }
+    
+    .menu-aulas > .aulas-container > .accordion{
+    
+        flex-direction: column;
+        background-color:#FED141;
+        width: 390px;
+    
+    }
+    
+    .swal2-actions > button{
+    
+        width: 170px;
+        padding: 15px;
+    
+    }
+    
+    .swal2-actions{
+    
+        width: 370px;
+        height: 60px;
+    
+    }
+    
+    .swal2-image{
+        height: 250px !important;
+        width:350px !important;
+    }
+    
+    
+    
+    .menu-preparativo > b{
+    
+        top: 70px;
+        position: relative;
+        color: #FFFFFF;
+    
+    
+    
+    
+    }
+    
+    
+    
+    .menu-preparativo{
+    
+    
+        width: 370px;
+        margin: auto;
+        height: 500px;
+        background-color:#C4C4C4;
+        font-size: 22px;
+    }
+    
+    .menu-preparativo > .aulas-preparativo{
+    
+    
+        width: 350px !important;
+        position: relative;
+        margin: auto;
+        height: 250px !important;
+        font-size: 22px;
+        top: 170px !important;
+    }
+    
+    .menu-preparativo > .aulas-preparativo > form >.form-select {
+        padding: 15px;
+        border: 2px #FED141;
+    
+    
+    }
+    
+    .menu-preparativo > .aulas-preparativo > form > button{
+        padding: 15px;
+        width: 250px;
+        top: 50px;
+        position: relative;
+        color: #FFFFFF;
+    
+    
+    }
+    
+    
+    .menu-preparativo > .aulas-preparativo{
+    
+        width: 370px;
+        height: 200px;
+        position: relative;
+        top: 30px;
+    
+    
+    }
+    
+    .aulas-preparativos{
+        width: 425px;
+        min-height: 900px !important;
+        background-color: #FFFFFF;
+        position: relative;
+        flex-direction: column;
+        display: flex;
+        top: 5px
+    }
+    
+    .aulas-preparativos > div> .barra-alta-home {
+        position: relative !important;
+        width: 425px;
+        height: 65px;
+        left: 0px;
+        top: 10px;
+        display: flex;
+        margin: auto;
+        z-index: 3000;
+    }
+    
+    .aulas-preparativos > .barra-fixed {
+        position: fixed !important;
+        width: 425px;
+        height: 65px;
+        z-index: 3000;
+        top: 0px;
+        background-color: #FED141;
+    }
+    
+
+
+    
+}
+
+
+
+
+
+
+@media (max-width:991px) and (min-width:426px) {
+
+    .aulas{
+        width: 991px;
+        min-height: 100vh;
+        background-color: #FFFFFF;
+        position: relative;
+        flex-direction: column;
+        display: flex;
+        top: 5px
+    }
+
+    iframe{
+        width: 500px;
+    }
+    
+    .aulas > div> .barra-alta-home {
+        position: relative !important;
+        width: 991px;
+        height: 85px;
+        left: 0px;
+        top: 10px;
+        display: flex;
+        margin: auto;
+        z-index: 3000;
+    }
+    
+    .menu-aulas{
+        position: relative;
+        width: 991px;
+    height: 100vh;
+    left: 0px;
+    bottom: -35px;
+    
+    background: #FED141;
+    border-radius: 30px 30px 0px 0px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    transform: none;
+    
+    }
+    
+    .menu-aulas > b{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 30px;
+        /* identical to box height */
+        
+    position: absolute;
+    width: 425px;
+    height: 30px;
+    left: 0px;
+    top: 20px;
+    color: #FFFFFF;
+    }
+    
+    .menu-aulas > .aulas-container {
+        width: 700px;
+        position: relative;
+        margin: auto;
+        display:flex;
+        top: 70px;
+        flex-direction:column;
+        overflow-y: scroll;
+    
+    
+    }
+    
+    .menu-aulas > .aulas-container > div{
+    
+        display: flex;
+        flex-direction:row;
+        align-items: flex-start;
+        padding: 15px;
+        gap: 15px;
+        margin: 5px 0px;
+        position: relative;
+        width: 600px;
+        height: 109px;
+        left: 0px;
+        top: 1px;
+        border-radius: 10px;
+        background-color: #FFFFFF;
+    }
+    
+    
+    .menu-aulas > .aulas-container > div > .aula-play > svg{
+        position: relative;
+        width: 50px;
+        height: 50px;
+        margin: auto;
+        top: 13px;
+        color: #FFFFFF;
+    
+    }
+    
+    .menu-aulas > .aulas-container > div > .aula-play{
+        width: 85px;
+        height: 75px;
+        background-image: url(../../../../img/curso.png);
+        border-radius: 5px;
+        background-size: cover;
+        
+        /* Inside auto layout */
+        
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    
+    }
+    
+    .menu-aulas > .aulas-container > div > .aula-description > h5,p{
+        width: 200px;
+        height: 18px;
+        
+        font-style: normal;
+        font-weight:bold;
+        font-size: 15px;
+        line-height: 18px;
+        /* identical to box height */
+        
+        
+        /* Colors / Dark / Base 1 */
+        
+        color: #161719;
+        
+        
+        /* Inside auto layout */
+        
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    
+    }
+    
+    .menu-aulas > .aulas-container > div > .aula-description > p{
+        width: 220px;
+        height: 18px;
+        
+        font-style: normal;
+        font-weight:bold;
+        font-size: 14px;
+        line-height: 18px;
+        /* identical to box height */
+        
+        
+        /* Colors / Dark / Base 1 */
+        
+        color: #161719;
+        
+        
+        /* Inside auto layout */
+        
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    
+    }
+    
+    .menu-aulas > .aulas-container > div > .aula-description{
+        display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 6px;
+    
+    width: 270px;
+    height: 79px;
+    font-size: 13px;
+    text-align: left;
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    
+    }
+    
+    
+    .aulas > .barra-fixed {
+        position: fixed !important;
+        width: 991px;
+        height: 85px;
+        z-index: 3000;
+        top: 0px;
+        background-color: #FED141;
+    }
+    
+    .menu-aulas > .aulas-container > .accordion > .accordion-item{
+    
+        width: 600px;
+        margin: 0px auto;
+        padding: 15px;
+        left: 0px;
+        position: relative;
+        border: solid #FFFFFF;
+        border-radius: 10px;
+    
+    
+    
+    }
+    
+    .menu-aulas > .aulas-container > .accordion > .accordion-item > .accordion-header {
+    
+        border: 0.1px solid #ffff;
+    }
+    
+    .menu-aulas > .aulas-container > .accordion > .accordion-item > .accordion-header > button {
+    
+        background-color: #FFFFFF;
+        box-shadow: none;
+    
+    
+    }
+    
+    .menu-aulas > .aulas-container > .accordion{
+    
+        flex-direction: column;
+        background-color:#FED141;
+        width: 600px;
+    
+    }
+    
+    .swal2-actions > button{
+    
+        width: 170px;
+        padding: 15px;
+    
+    }
+    
+    .swal2-actions{
+    
+        width: 370px;
+        height: 60px;
+    
+    }
+    
+    .swal2-image{
+        height: 250px !important;
+        width:350px !important;
+    }
+    
+    
+    
+    .menu-preparativo > b{
+    
+        top: 70px;
+        position: relative;
+        color: #FFFFFF;
+    
+    
+    
+    
+    }
+    
+    
+    
+    .menu-preparativo{
+    
+    
+        width: 600px;
+        margin: auto;
+        height: 600px;
+        background-color:#C4C4C4;
+        font-size: 22px;
+    }
+    
+    .menu-preparativo > .aulas-preparativo{
+    
+    
+        width: 350px !important;
+        position: relative;
+        margin: auto;
+        height: 250px !important;
+        font-size: 22px;
+        top: 170px !important;
+    }
+    
+    .menu-preparativo > .aulas-preparativo > form >.form-select {
+        padding: 15px;
+        border: 2px #FED141;
+    
+    
+    }
+    
+    .menu-preparativo > .aulas-preparativo > form > button{
+        padding: 15px;
+        width: 250px;
+        top: 100px;
+        position: relative;
+        color: #FFFFFF;
+    
+    
+    }
+    
+    
+    .menu-preparativo > .aulas-preparativo{
+    
+        width: 370px;
+        height: 200px;
+        position: relative;
+        top: 30px;
+    
+    
+    }
+    
+    .aulas-preparativos{
+        width: 991px;
+        min-height: 900px !important;
+        background-color: #FFFFFF;
+        position: relative;
+        flex-direction: column;
+        display: flex;
+        top: 5px
+    }
+    
+    .aulas-preparativos > div> .barra-alta-home {
+        position: relative !important;
+        width: 425px;
+        height: 65px;
+        left: 0px;
+        top: 10px;
+        display: flex;
+        margin: auto;
+        z-index: 3000;
+    }
+    
+    .aulas-preparativos > .barra-fixed {
+        position: fixed !important;
+        width: 991px;
+        height: 85px;
+        z-index: 3000;
+        top: 0px;
+        background-color: #FED141;
+    }
+    
+
+
+    
+}

@@ -1,0 +1,256 @@
+.tarefas{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #FFFFFF;
+    position: relative;
+    flex-direction: column;
+    display: flex;
+    top: 5px
+}
+
+
+
+.tarefas > div> .barra-alta-home {
+    position: relative !important;
+    width: 100%;
+    height: 65px;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    margin: auto;
+    z-index: 3000;
+}
+
+.tarefas > a > .perfil{
+    left: 0px;
+}
+
+
+.tarefas > .barra-fixed {
+    position: fixed !important;
+    width: 100%;
+    height: 65px;
+    z-index: 3000;
+    top: 0px;
+    background-color: #FED141;
+}
+
+.tarefas-jogos{
+width: 600px;
+height: 300px;
+margin: auto;
+flex-wrap: wrap;
+display: flex;
+position: relative;
+top: -20px;
+}
+
+
+.tarefas-jogos > div{
+    box-sizing: border-box;
+
+    position: relative;
+    width: 163px;
+    height: 180px;
+    left: 0px;
+    top: 0px;
+    margin: 18px;
+    background: #F1F1F1;
+    border: 1px solid #CECECE;
+    border-radius: 15px;
+    flex-direction: column;
+    display: flex;
+    cursor: pointer;
+
+}
+
+.tarefas-jogos > div > svg{
+
+position: relative;
+width: 70px;
+height: 70px;
+margin: auto;
+color: #000;
+
+}
+
+.tarefas-jogos > div > b{
+
+    top: -20px;
+    position: relative;
+
+}
+
+@media (max-width:425px) {
+
+
+    .tarefas{
+        width: 425px;
+        height: 812px;
+        background-color: #FFFFFF;
+        position: relative;
+        flex-direction: column;
+        display: flex;
+        top: 5px
+    }
+    
+    
+    
+    .tarefas > div> .barra-alta-home {
+        position: relative !important;
+        width: 425px;
+        height: 65px;
+        left: 0px;
+        top: 10px;
+        display: flex;
+        margin: auto;
+        z-index: 3000;
+    }
+    
+    
+    .tarefas > .barra-fixed {
+        position: fixed !important;
+        width: 425px;
+        height: 65px;
+        z-index: 3000;
+        top: 0px;
+        background-color: #FED141;
+    }
+    
+    .tarefas-jogos{
+    width: 400px;
+    height: 450px;
+    margin: auto;
+    flex-wrap: wrap;
+    display: flex;
+    position: relative;
+    top: -20px;
+    }
+    
+    
+    .tarefas-jogos > div{
+        box-sizing: border-box;
+    
+        position: relative;
+        width: 163px;
+        height: 180px;
+        left: 0px;
+        top: 0px;
+        margin: 18px;
+        background: #F1F1F1;
+        border: 1px solid #CECECE;
+        border-radius: 15px;
+        flex-direction: column;
+        display: flex;
+    
+    }
+    
+    .tarefas-jogos > div > svg{
+    
+    position: relative;
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    color: #000;
+    
+    }
+    
+    .tarefas-jogos > div > b{
+    
+        top: -20px;
+        position: relative;
+    
+    }
+    
+
+
+    
+}
+
+
+
+@media (max-width:991px) and (min-width:426px) {
+
+
+    .tarefas{
+        width: 991px;
+        min-height: 100vh;
+        background-color: #FFFFFF;
+        position: relative;
+        flex-direction: column;
+        display: flex;
+        top: 5px
+    }
+    
+    
+    
+    .tarefas > div> .barra-alta-home {
+        position: relative !important;
+        width: 991px;
+        height: 85px;
+        left: 0px;
+        top: 10px;
+        display: flex;
+        margin: auto;
+        z-index: 3000;
+    }
+    
+    
+    .tarefas > .barra-fixed {
+        position: fixed !important;
+        width: 991px;
+        height: 85px;
+        z-index: 3000;
+        top: 0px;
+        background-color: #FED141;
+    }
+    
+    .tarefas-jogos{
+    width: 400px;
+    height: 450px;
+    margin: auto;
+    flex-wrap: wrap;
+    display: flex;
+    position: relative;
+    top: -20px;
+    }
+    
+    
+    .tarefas-jogos > div{
+        box-sizing: border-box;
+    
+        position: relative;
+        width: 163px;
+        height: 180px;
+        left: 0px;
+        top: 0px;
+        margin: 18px;
+        background: #F1F1F1;
+        border: 1px solid #CECECE;
+        border-radius: 15px;
+        flex-direction: column;
+        display: flex;
+    
+    }
+    
+    .tarefas-jogos > div > svg{
+    
+    position: relative;
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    color: #000;
+    
+    }
+    
+    .tarefas-jogos > div > b{
+    
+        top: -20px;
+        position: relative;
+    
+    }
+    
+
+
+    
+}
