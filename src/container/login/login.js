@@ -4,7 +4,7 @@ import Form from 'react-bootstrap/Form';
 import InputGroup from 'react-bootstrap/InputGroup';
 import Button from 'react-bootstrap/Button';
 import { Link, useNavigate } from 'react-router-dom';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import axios from 'axios'
 import Swal from 'sweetalert2';
 
@@ -39,8 +39,8 @@ function Login() {
         password: password,
       })
         .then(async response => {
-          localStorage.setItem('token', response.data.token)
-          localStorage.setItem('IdUser', response.data.user._id)
+         await localStorage.setItem('token', response.data.token)
+         await localStorage.setItem('IdUser', response.data.user._id)
           console.log(response.data)
           let timerInterval
           await Swal.fire({
@@ -54,13 +54,14 @@ function Login() {
             willClose: () => {
               clearInterval(timerInterval)
             }
-          }).then((result) => {
+          }).then( async (result) => {
             /* Read more about handling dismissals below */
             if (result.dismiss === Swal.DismissReason.timer) {
               console.log('I was closed by the timer')
             }
           })
-
+           await navigate(`/home`)
+           await window.location.reload();
           await Swal.fire({
             position: 'top-center',
             icon: 'success',
@@ -68,7 +69,8 @@ function Login() {
             timer: 1500
           })
 
-         await navigate(`/home`)
+
+
 
 
         })
