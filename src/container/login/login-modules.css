@@ -79,6 +79,17 @@
     border-radius: 0px;
 
 }
+.login>.form>form>a{
+    text-decoration: none !important;
+
+}
+
+.login>.form>form>button > b, .login>.form>form>a>button > b{
+
+    position: relative !important;
+    top: 2px !important;
+
+}
 
 .form-control {
     background-color: #fff;

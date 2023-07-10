@@ -68,7 +68,7 @@ function Login() {
             timer: 1500
           })
 
-          navigate(`/home`)
+         await navigate(`/home`)
 
 
         })

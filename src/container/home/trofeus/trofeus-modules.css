@@ -151,7 +151,7 @@
 
     .trofeus {
         width: 425px;
-        height: 812px;
+        height: 950px;
         background-color: #FFFFFF;
         position: relative;
         flex-direction: column;
@@ -187,7 +187,6 @@
         flex-wrap: wrap;
         display: flex;
         position: relative;
-        top: -20px;
     }
 
     .trofeus-div>.list-group {
