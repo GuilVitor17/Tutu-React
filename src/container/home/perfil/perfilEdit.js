@@ -227,7 +227,8 @@ function PerfilEdit() {
                         Authorization: `Bearer ${token}`
                     }
                 })
-                .then( async (response) => {
+                .then( async (data) => {
+                    console.log(data)
                     let timerInterval
                     await Swal.fire({
                         timer: 2000,
@@ -253,31 +254,13 @@ function PerfilEdit() {
                         showConfirmButton: false,
                         timer: 1500
                     })
+                    localStorage.removeItem('IdFoto')
                     navigate(`/perfil/upload`)
 
 
                 })
 
         } catch (error) {
-
-            let timerInterval
-            await Swal.fire({
-                timer: 2000,
-                timerProgressBar: true,
-                didOpen: () => {
-                    Swal.showLoading()
-                    timerInterval = setInterval(() => {
-                    }, 100)
-                },
-                willClose: () => {
-                    clearInterval(timerInterval)
-                }
-            }).then((result) => {
-                /* Read more about handling dismissals below */
-                if (result.dismiss === Swal.DismissReason.timer) {
-                    console.log('I was closed by the timer')
-                }
-            })
 
             await Swal.fire({
                 position: 'top-center',
@@ -286,6 +269,7 @@ function PerfilEdit() {
                 title: 'Ops... Adicione uma foto',
                 timer: 1500
             })
+            console.log(error)
             navigate(`/perfil/upload`)
 
 
@@ -313,6 +297,7 @@ function PerfilEdit() {
             </div>
             <form onSubmit={FotoUsuario} encType='multipart/form-data'>
                 <div className='imageId'><img src={foto} />
+                
                     <input type='file' name='image' onChange={handleFotoUser} className='input-img' placeholder='imagem' required />
 
                 </div>

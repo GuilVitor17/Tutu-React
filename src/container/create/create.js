@@ -47,7 +47,7 @@ function LoginCreate() {
                 name: name
             })
                 .then(async response => {
-                    localStorage.setItem('token', response.data.token)
+                    await localStorage.setItem('token', response.data.token)
                     let timerInterval
                     await Swal.fire({
                         timer: 2000,
@@ -82,25 +82,7 @@ function LoginCreate() {
 
                 })
         } catch (error) {
-            let timerInterval
-            await Swal.fire({
-                timer: 2000,
-                timerProgressBar: true,
-                didOpen: () => {
-                    Swal.showLoading()
-                    timerInterval = setInterval(() => {
-                    }, 100)
-                },
-                willClose: () => {
-                    clearInterval(timerInterval)
-                }
-            }).then((result) => {
-                /* Read more about handling dismissals below */
-                if (result.dismiss === Swal.DismissReason.timer) {
-                    console.log('I was closed by the timer')
-                }
-            })
-
+            console.log(error)
             await Swal.fire({
                 position: 'top-center',
                 icon: 'error',
@@ -108,7 +90,6 @@ function LoginCreate() {
                 showConfirmButton: false,
                 timer: 1500
             })
-            console.log(error)
         }
 
 

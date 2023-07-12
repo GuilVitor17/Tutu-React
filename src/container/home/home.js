@@ -12,6 +12,10 @@ function HomePage() {
      
      <Navbarr />
 
+     <div>
+
+     
+
      <Perfil />
 
      <div className='pagamento'>
@@ -21,6 +25,8 @@ function HomePage() {
      <Sonhos />
      
      <MenuBaixo />
+
+     </div>
 
 
 
