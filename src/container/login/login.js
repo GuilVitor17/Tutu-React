@@ -53,6 +53,7 @@ function Login() {
       navigate('/home');
       window.location.reload();
     } catch (error) {
+      console.log("erro", error)
       Swal.fire({
         position: 'top-center',
         icon: 'error',
