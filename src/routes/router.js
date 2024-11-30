@@ -64,11 +64,11 @@ import ConfirmSonhoCancel from '../container/Gateway/cancel';
                 {UserAutheticate && <Route path='/perfil/:id' element={<PerfilId />} />}
                 {UserAutheticate &&<Route path='/perfil/:id/edit' element={<PerfilEdit />} />}
                 {UserAutheticate &&<Route path='/perfil/create' element={<PerfilCreate />} />}
-                {UserAutheticate &&<Route path='/perfil/upload' element={<PerfilFoto />} />}
-                {UserAutheticate &&<Route path={`/perfil/aulas/${url}/preparativo/:id`} element={<Aulas />} />}
+                {/* {UserAutheticate &&<Route path='/perfil/upload' element={<PerfilFoto />} />}   */}
+                {UserAutheticate &&<Route path={`/perfil/aulas/preparativo/:id`} element={<Aulas />} />}
                 {UserAutheticate &&<Route path='/perfil/tarefa' element={<Tarefas />} />}
-                {UserAutheticate &&<Route path='/perfil/quiz' element={<Quiz />} />}
-                {UserAutheticate &&<Route path='/perfil/quizperguntas' element={<QuizPerguntas />} />}
+                {/* {UserAutheticate &&<Route path='/perfil/quiz' element={<Quiz />} />} */}
+                {/* {UserAutheticate &&<Route path='/perfil/quizperguntas' element={<QuizPerguntas />} />} */}
                 {UserAutheticate &&<Route path='/perfil/game' element={<Game />} />}
                 {UserAutheticate &&<Route path='/perfil/anotacoes' element={<Anotacoes />} />}
                 {UserAutheticate &&<Route path='/perfil/anotacoescreate' element={<AnotacoesCreate />} />}

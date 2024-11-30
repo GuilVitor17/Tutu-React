@@ -1,50 +1,107 @@
-import './navbar-modules.css'
-import Button from 'react-bootstrap/Button';
-import Container from 'react-bootstrap/Container';
-import Form from 'react-bootstrap/Form';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
-import Logo from '../../../img/LogoTutu.png'
+import React, { useState } from 'react';
+import { Drawer, List, ListItem, ListItemText, IconButton, Box } from '@mui/material';
 import { Link } from 'react-router-dom';
-
-
+import Logo from '../../../img/LogoTutu.png';
+import { MenuOpen } from '@mui/icons-material';
 
 function Navbarr() {
+  const [isOpen, setIsOpen] = useState(false); // Controle de visibilidade do menu
 
+  // Função para alternar a visibilidade do menu lateral
+  const toggleDrawer = (open) => {
+    setIsOpen(open);
+  };
 
-    return (
-        <div className="navbar">
-          <Navbar bg="light" expand="lg">
-      <Container fluid>
-        <Navbar.Brand href="#"><Navbar.Toggle aria-controls="navbarScroll" /></Navbar.Brand>
-        <div className='LogoHome'><img src={Logo}/></div>
-        <Navbar.Collapse id="navbarScroll">
-          <Nav
-            className="me-auto my-2 my-lg-0"
-            style={{ maxWidth: '500px' }}
-            navbarScroll
-          >
-           <Link to={`/perfil/curso/aulas/check`}><Nav.Link href="#action1"><b className='b-menu'>Comprar Curso</b></Nav.Link></Link>
-           <Link to={`/perfil/game`}><Nav.Link href="#action1"><b className='b-menu'>Game</b></Nav.Link></Link>
-           <Link to={`/perfil/quiz`}><Nav.Link href="#action1"><b className='b-menu'>Quiz</b></Nav.Link></Link>
-           <Link to={`/perfil/:id`}><Nav.Link href="#action1"><b className='b-menu'>Perfil</b></Nav.Link></Link>
-           <Link to={`/perfil/aulaspagas`}><Nav.Link href="#action1"><b className='b-menu'>Meus Curso</b></Nav.Link></Link>
-           <Link to={`/perfil/createsonhos`}><Nav.Link href="#action1"><b className='b-menu'>Sonhos</b></Nav.Link></Link>
-           <Link to={`/perfil/tarefa`}><Nav.Link href="#action1"><b className='b-menu'>Tarefas</b></Nav.Link></Link>
-           <Link to={`/perfil/anotacoes`}><Nav.Link href="#action1"><b className='b-menu'>Anotaçoes</b></Nav.Link></Link>
-           <Link to={`/perfil/trofeus`}><Nav.Link href="#action1"><b className='b-menu'>Trofeus</b></Nav.Link></Link>
-           <Link to={`/perfil/config`}><Nav.Link href="#action1"><b className='b-menu'>Configurações</b></Nav.Link></Link>
-            
-           
-          </Nav>
-         
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
-           
-        </div>
-    );
+  const menuItems = [
+    { text: 'Inicio', link: '/home' },
+    { text: 'Comprar Curso', link: '/perfil/curso/aulas/check' },
+    { text: 'Game', link: '/perfil/game' },
+    { text: 'Perfil', link: '/perfil/:id' },
+    { text: 'Meus Cursos', link: '/perfil/aulaspagas' },
+    { text: 'Sonhos', link: '/perfil/createsonhos' },
+    { text: 'Tarefas', link: '/perfil/tarefa' },
+    { text: 'Anotações', link: '/perfil/anotacoes' },
+    { text: 'Trofeus', link: '/perfil/trofeus' },
+    { text: 'Configurações', link: '/perfil/config' },
+  ];
+
+  return (
+    <Box>
+      {/* Botão de Menu com o ícone Home */}
+      <IconButton
+        edge="start"
+        color="inherit"
+        aria-label="menu"
+        onClick={() => toggleDrawer(true)}
+        sx={{
+          position: 'fixed',
+          top: 20,
+          left: 20,
+          zIndex: 1000,
+          backgroundColor: '#333',
+          color: 'white',
+          borderRadius: '50%',
+          padding: 2,
+          '&:hover': {
+            backgroundColor: '#333', // Remover o hover
+          },
+        }}
+      >
+        <MenuOpen /> {/* Novo ícone aqui */}
+      </IconButton>
+
+      {/* Menu Lateral (Drawer) */}
+      <Drawer
+        anchor="left"
+        open={isOpen}
+        onClose={() => toggleDrawer(false)}
+        sx={{
+          width: 250,
+          flexShrink: 0,
+          '& .MuiDrawer-paper': {
+            width: 250,
+            backgroundColor: '#333',  // Cor do fundo do menu
+            color: 'white',           // Cor do texto
+            paddingTop: 8,            // Espaçamento superior
+          },
+        }}
+      >
+        <Box
+          sx={{
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'center',
+            paddingBottom: 2,
+          }}
+        >
+          {/* Logo */}
+         <Link to={'/home'}><div style={{ padding: 20 }}>
+            <img src={Logo} alt="Logo" style={{ width: '100%', maxWidth: 150 }} />
+          </div>
+          </Link> 
+
+          {/* Lista de itens do menu */}
+          <List sx={{ width: '100%' }}>
+            {menuItems.map((item, index) => (
+              <ListItem
+                button
+                key={index}
+                sx={{
+                  '&:hover': {
+                    backgroundColor: 'transparent', // Desativar o hover
+                  },
+                }}
+              >
+                <Link to={item.link} style={{ textDecoration: 'none', color: 'white' }}>
+                  <ListItemText primary={item.text} />
+                </Link>
+              </ListItem>
+            ))}
+          </List>
+        </Box>
+      </Drawer>
+    </Box>
+  );
 }
 
 export default Navbarr;

@@ -126,14 +126,7 @@ function PerfilFoto() {
 
     return (
         <div className="perfilUpload">
-            <div className='barra-fixed'>
-
-                <div className='barra-alta-home'>
-                    <div className='Logo-alta'><img src={LogoAmrelo} /></div>
-
-                </div>
-            </div>
-
+          
 
             <div className='dadosUser'>
             <h2 className='title-dados-foto'><b>Escolha uma Foto!</b></h2>

@@ -24,7 +24,7 @@ function HomePage() {
 
      <Sonhos />
      
-     <MenuBaixo />
+     {/*  */}
 
      </div>
 

@@ -2,7 +2,6 @@
     width: 900px;
     height: 300px;
     margin: auto;
-    left: 170px;
     position: relative;
 
 }
@@ -294,7 +293,6 @@ transform: rotate(180deg);
         width: 800px;
         height: 300px;
         margin: auto;
-        left: 175px;
         position: relative;
     
     }
@@ -449,7 +447,6 @@ transform: rotate(180deg);
         width: 600px;
         height: 300px;
         margin: auto;
-        left: 175px;
         position: relative;
     
     }

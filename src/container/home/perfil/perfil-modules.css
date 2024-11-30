@@ -1,9 +1,8 @@
 .perfil {
     width: 900px;
     height: 400px;
-    margin: 40px auto;
     position: relative;
-    left: 170px;
+    margin: auto;
 
 
 
@@ -641,9 +640,7 @@ color: #424D59;
     .perfil {
         width: 600px;
         height: 400px;
-        margin: 40px auto;
         position: relative;
-        left: 175px;
     
     
     

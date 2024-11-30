@@ -8,6 +8,7 @@ import axios from 'axios';
 import Modal from 'react-bootstrap/Modal';
 import MenuBaixo from '../navbar/menuBaixo';
 import Swal from 'sweetalert2';
+import Navbarr from '../navbar/navbar';
 
 
 function PerfilEdit() {
@@ -285,26 +286,19 @@ function PerfilEdit() {
 
     return (
         <div className="perfiledit">
-            <div className='barra-fixed'>
+     <Navbarr />
 
-                <div className='barra-alta-home'>
-                    <div className='Logo-alta'><img src={LogoAmrelo} /></div>
-                    <Link to='/perfil/config'> <div className='Logo-volta'><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-arrow-left" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
-                    </svg></div></Link>
-                </div>
-
-            </div>
+        
             <form onSubmit={FotoUsuario} encType='multipart/form-data'>
-                <div className='imageId'><img src={foto} />
+                {/* <div className='imageId'><img src={foto} />
                 
                     <input type='file' name='image' onChange={handleFotoUser} className='input-img' placeholder='imagem' required />
 
-                </div>
+                </div> */}
                
-                <Button variant="primary" className='button-edit-dados' onClick={handleShow}>
+                {/* <Button variant="primary" className='button-edit-dados' onClick={handleShow}>
                 <b> Editar Foto </b>
-                </Button>
+                </Button> */}
 
                 <Modal show={show} size="lg"
                     aria-labelledby="contained-modal-title-vcenter"
@@ -354,7 +348,7 @@ function PerfilEdit() {
 
 
 
-            <MenuBaixo />
+            
 
         </div>
     );

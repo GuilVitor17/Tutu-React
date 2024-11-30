@@ -263,10 +263,9 @@ const IdUser = localStorage.getItem('IdUser');
 
 
   return (
-   <Link to={`/perfil/${IdUser}`}>  <div className="perfil">
+   <Link  to={`/perfil/${IdUser}`}>  <div className="perfil">
      
-     <div className='image'><img src={foto} /></div>
-     <div className='nome'><p> Bem Vindo de Volta </p> <br /> <h2>{Nome}</h2></div>
+     <div className='nome'><p> Olá, </p> <br /> <h2>{Nome}</h2></div>
 
      <p className='nivel-tutu'>Nivel tutu {Nome}:</p>
      <div className='nivel'> <b>1</b>

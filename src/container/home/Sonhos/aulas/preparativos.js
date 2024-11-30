@@ -120,12 +120,7 @@ function AulasPagasPreparativos() {
     return (
         <div className="aulas-preparativos">
 
-            <div className='barra-fixed'>
-
-                <div className='barra-alta-home'>
-                    <div className='Logo-alta'><img src={Logo} /></div>
-                </div>
-            </div>
+          
 
             <div className='menu-preparativo'>
                 <b>O que voce espera desse curso?</b>

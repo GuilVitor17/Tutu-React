@@ -9,6 +9,7 @@ import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/esm/Button';
 import Modal from 'react-bootstrap/Modal';
 import axios from 'axios';
+import Navbarr from '../../../navbar/navbar';
 
 
 
@@ -102,6 +103,7 @@ function ListaTarefa({ titulo, descricao, data, IdTarefa }) {
     return (
         <>
 
+<Navbarr />
 
 
 

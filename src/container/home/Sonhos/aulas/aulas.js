@@ -6,6 +6,7 @@ import MenuBaixo from '../../navbar/menuBaixo';
 import { useEffect, useState } from 'react';
 import ListAulas from './list';
 import Accordion from 'react-bootstrap/Accordion';
+import Navbarr from '../../navbar/navbar';
 
 
 
@@ -14,40 +15,30 @@ function Aulas() {
 
 
     const token = localStorage.getItem('token')
-    const [cursoAula, setIdCursoAula] = useState([])
     const iduser = localStorage.getItem('IdUser')
 
-
-
-    useEffect(() => {
-        const handleFotoId = async () => {
-
-            try {
-
-                await fetch(`${process.env.REACT_APP_API_URL}/curso`, {
-                    method: 'GET',
-                    headers: {
-                        'Content-Type': 'aplication/json',
-                        'authorization': `Bearer ${token}`
-                    }
-                })
-                    .then(resp => resp.json())
-                    .then(data => {
-                        setIdCursoAula(data)
-                        
-                    })
-
-            } catch (error) {
-                console.log(error)
-
-
-
-            }
-
+    const cursoAula = [
+        {
+            titulo:"Aula 1",
+            aula:"https://youtu.be/iF2MdbrTiBM?si=xxsaZYYCoZwj3d52"
+        },
+        {
+            titulo:"Aula 2",
+            aula:"https://www.youtube.com/watch?v=XC3ahd6Di3M&list=RDMMXC3ahd6Di3M&start_radio=1"
+        },
+        {
+            titulo:"Aula 3",
+            aula:"https://youtu.be/iF2MdbrTiBM?si=xxsaZYYCoZwj3d52"
         }
-
-        handleFotoId();
-    }, [])
+        ,{
+            titulo:"Aula 4",
+            aula:"https://youtu.be/iF2MdbrTiBM?si=xxsaZYYCoZwj3d52"
+        },
+        {
+            titulo:"Aula 5",
+            aula:"https://youtu.be/iF2MdbrTiBM?si=xxsaZYYCoZwj3d52"
+        }
+    ]
 
 
 
@@ -55,17 +46,10 @@ function Aulas() {
 
     return (
         <div className="aulas">
+     <Navbarr />
 
-            <div className='barra-fixed'>
 
-                <div className='barra-alta-home'>
-                    <div className='Logo-alta'><img src={Logo} /></div>
-                    <Link to='/home'> <div className='Logo-volta'><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-arrow-left" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
-                    </svg></div></Link>
-                </div>
-            </div>
-
+          
             <Perfil />
 
             <div className='menu-aulas'>
@@ -94,7 +78,7 @@ function Aulas() {
                 </div>
             </div>
 
-            <MenuBaixo />
+            
 
 
         </div>

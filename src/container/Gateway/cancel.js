@@ -65,14 +65,6 @@ function ConfirmSonhoCancel() {
     return (
         <div className="tarefas">
 
-            <div className='barra-fixed'>
-
-                <div className='barra-alta-home'>
-                    <div className='Logo-alta'><img src={Logo} /></div>
-                    <Link to='/home'> <div className='Logo-volta'></div></Link>
-                </div>
-            </div>
-
 
             <div className='msg-cancel'>
                 <h2>Pagamento Cancelada</h2>

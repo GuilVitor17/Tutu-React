@@ -6,6 +6,7 @@ import Form from 'react-bootstrap/Form';
 import { useState } from 'react';
 import axios from 'axios';
 import Swal from 'sweetalert2';
+import Navbarr from '../navbar/navbar';
 
 
 function PerfilCreate() {
@@ -93,7 +94,7 @@ function PerfilCreate() {
                         timer: 1500
                     })
 
-                    navigate(`/perfil/upload`)
+                    navigate(`/home`)
 
                 })
 
@@ -136,14 +137,9 @@ function PerfilCreate() {
 
     return (
         <div className="perfil-create-user">
-            <div className='barra-fixed'>
+     <Navbarr />
 
-                <div className='barra-alta-home'>
-                    <div className='Logo-alta'><img src={LogoAmrelo} /></div>
-
-                </div>
-            </div>
-
+          
 
             <div className='dadosUser'>
 
